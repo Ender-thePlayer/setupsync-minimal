@@ -1,4 +1,4 @@
-# Welcome to SetupSync!
+# Welcome to SetupSync (MINIMAL)!
 
 SetupSync is a collection of shell scripts that I use to prepare, install my used apps (through distro's repo, through flatpak, through pip etc), remove any bloat (if there is), move the dotfiles, make my preferred configs to my apps, install GNOME extensions etc.
 
