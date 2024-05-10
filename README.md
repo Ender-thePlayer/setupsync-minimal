@@ -9,7 +9,7 @@ SetupSync is a collection of shell scripts that I use to prepare, install my use
 
 When the file `main.sh` it is invoked like `./main.sh` in the relative folder where it is, it automatically detects which of the following supported distros you use (ArchLinux, Fedora Linux, Debian GNU/Linux) and it autodetects which GNOME version you have (if you have).
 
-Then it will ask you if you want to run setupsync like usual, but only configuring some drivers (for Thinkpad T480, mostly the fingerprint but also tlp and something headphone related).
+Then it will ask you if you want to run setupsync like usual, but only configuring some drivers (for my Thinkpad T480): for the fingerptint sensor, but also tlp and something headphone related).
 
 After you select an option, it will ask you for access to **SUPERUSER PRIVILEGES** through `sudo`. After that, it will run automatically for the most of the time.
 
