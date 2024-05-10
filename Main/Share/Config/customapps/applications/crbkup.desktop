@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=CrBKUPv2
+Exec=python3 '/home/ender/Documents/Projects/Coding/CrBKUP/newmain.py'
+Comment=
+Terminal=false
+Icon=/home/ender/.local/share/applications/icons/crbkup.png
+Type=Application

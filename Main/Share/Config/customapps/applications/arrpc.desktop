@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=arrpc
+Exec=bash -c "exec \\$HOME/.local/bin/arrpc"
+Comment=
+Terminal=false
+Icon=
+Type=Application

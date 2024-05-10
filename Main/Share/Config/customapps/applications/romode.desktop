@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=RoMode
+Exec=python3 '/home/ender/Documents/Projects/Coding/SpotyG-Downloader/main.py'
+Comment=
+Terminal=false
+Icon=/home/ender/.local/share/applications/icons/romode.png
+Type=Application

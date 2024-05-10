@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///run/media/ender/EU-1/Aditional/PostInstall/Fedora/1-fedora-drivers.sh" added="2023-07-13T21:30:47.121046Z" modified="2023-07-13T21:30:47.121058Z" visited="2023-07-13T21:30:47.121048Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-13T21:30:47.121051Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/ender/EU-1/Aditional/PostInstall/Fedora/3-dnf-apps-installer.sh" added="2023-07-13T21:31:13.290435Z" modified="2023-07-13T23:56:33.408420Z" visited="2023-07-13T21:31:13.290436Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-13T23:56:33.408415Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/ender/EU-1/Aditional/PostInstall/Fedora/2-flatpak-apps-installer.sh" added="2023-07-13T21:43:35.285242Z" modified="2023-07-13T21:43:35.285250Z" visited="2023-07-13T21:43:35.285243Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-13T21:43:35.285246Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/ender/EU-1/Aditional/PostInstall/Fedora/4-misc-apps-installer.sh" added="2023-07-13T22:09:41.118751Z" modified="2023-07-13T22:47:07.815587Z" visited="2023-07-13T22:09:41.118752Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-13T22:47:07.815584Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/.local/bin/Discord/discord.desktop" added="2023-07-13T22:13:26.532143Z" modified="2023-07-13T22:13:26.532152Z" visited="2023-07-13T22:13:26.532145Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-desktop"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-13T22:13:26.532148Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/vencord-settings-backup.json" added="2023-07-13T22:19:27.885059Z" modified="2023-07-13T22:19:27.885071Z" visited="2023-07-13T22:19:27.885061Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="Discord" exec="&apos;Discord %u&apos;" modified="2023-07-13T22:19:27.885065Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/JetBrains_Mono.zip" added="2023-07-13T22:36:25.595471Z" modified="2023-07-13T22:36:25.595482Z" visited="2023-07-13T22:36:25.595472Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-07-13T22:36:25.595477Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf" added="2023-07-13T22:36:34.882453Z" modified="2023-07-13T22:36:52.159755Z" visited="2023-07-13T22:36:34.882455Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2023-07-13T22:36:52.159752Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/ender/EU-1/Collection/Videos/Projects/Standards/Fonts/%5BKANA%5D%20InabakuFontV3-M.ttf" added="2023-07-13T22:37:09.780835Z" modified="2023-07-13T22:37:09.780846Z" visited="2023-07-13T22:37:09.780837Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2023-07-13T22:37:09.780841Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/ender/EU-1/Collection/Videos/Projects/Standards/Fonts/%5BKANA-LAT%5D%20KleeOne-SemiBold.ttf" added="2023-07-13T22:37:14.413157Z" modified="2023-07-13T22:37:14.413167Z" visited="2023-07-13T22:37:14.413159Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2023-07-13T22:37:14.413162Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/ender/EU-1/Collection/Videos/Projects/Standards/Fonts/%5BLAT%5D%20Inter-Variable.ttf" added="2023-07-13T22:37:16.854905Z" modified="2023-07-13T22:37:16.854912Z" visited="2023-07-13T22:37:16.854906Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2023-07-13T22:37:16.854908Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/ender/EU-1/Collection/Videos/Projects/Standards/Fonts/%5BLAT%5D%20Iwata-G-Gothic-Bold.otf" added="2023-07-13T22:37:19.589394Z" modified="2023-07-13T22:37:19.589405Z" visited="2023-07-13T22:37:19.589396Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2023-07-13T22:37:19.589400Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/ender/EU-1/Aditional/PostInstall/firefox-pass.txt" added="2023-07-13T23:18:37.581085Z" modified="2023-07-13T23:18:37.581094Z" visited="2023-07-13T23:18:37.581086Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-13T23:18:37.581092Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/jmdict_english.zip" added="2023-07-13T23:25:12.602091Z" modified="2023-07-13T23:25:40.685109Z" visited="2023-07-13T23:25:12.602093Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-07-13T23:25:40.685099Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/kanjidic_english.zip" added="2023-07-13T23:25:16.426664Z" modified="2023-07-13T23:25:34.941753Z" visited="2023-07-13T23:25:16.426666Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-07-13T23:25:34.941745Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Screenshots/Screenshot%20from%202023-07-14%2002-51-33.png" added="2023-07-13T23:51:33.930329Z" modified="2023-07-13T23:51:33.930333Z" visited="2023-07-13T23:51:33.930330Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2023-07-13T23:51:33.930330Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Screenshots/Screenshot%20from%202023-07-14%2002-51-44.png" added="2023-07-13T23:51:44.166314Z" modified="2023-07-13T23:51:44.166319Z" visited="2023-07-13T23:51:44.166316Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2023-07-13T23:51:44.166316Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/2-flatpak-apps-installer.sh" added="2023-07-14T00:00:02.688888Z" modified="2023-07-14T00:00:02.688899Z" visited="2023-07-14T00:00:02.688890Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-14T00:00:02.688893Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Screenshots/Screenshot%20from%202023-07-14%2003-02-06.png" added="2023-07-14T00:02:06.658202Z" modified="2023-07-14T00:02:06.658207Z" visited="2023-07-14T00:02:06.658203Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2023-07-14T00:02:06.658204Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/.var/app/com.spotify.Client/config/spotify/prefs" added="2023-07-14T00:07:01.252051Z" modified="2023-07-14T00:07:01.252062Z" visited="2023-07-14T00:07:01.252053Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-14T00:07:01.252057Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/.config/spicetify/config-xpui.ini" added="2023-07-14T00:07:53.972860Z" modified="2023-07-14T00:09:04.639297Z" visited="2023-07-14T00:07:53.972862Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-14T00:09:04.639294Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Documents/Games/Steam/OneShot.v2022.12.06/OneShot.v2022.12.06/steamshim.exe" added="2023-07-14T00:28:37.589362Z" modified="2023-07-14T00:28:37.589373Z" visited="2023-07-14T00:28:37.589364Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ms-dos-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2023-07-14T00:28:37.589368Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Documents/Games/Steam/OneShot.v2022.12.06/OneShot.v2022.12.06" added="2023-07-14T00:28:54.633404Z" modified="2023-07-14T00:28:54.633414Z" visited="2023-07-14T00:28:54.633405Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2023-07-14T00:28:54.633409Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Documents/Games/Steam/OneShot.v2022.12.06/UserData" added="2023-07-14T00:30:20.375712Z" modified="2023-07-14T00:30:20.375722Z" visited="2023-07-14T00:30:20.375714Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2023-07-14T00:30:20.375717Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Screenshots/Screenshot%20from%202023-07-14%2003-31-22.png" added="2023-07-14T00:31:22.077179Z" modified="2023-07-14T00:31:22.077187Z" visited="2023-07-14T00:31:22.077181Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2023-07-14T00:31:22.077181Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Screenshots/Screenshot%20from%202023-07-14%2003-32-55.png" added="2023-07-14T00:32:55.638578Z" modified="2023-07-14T00:36:05.414960Z" visited="2023-07-14T00:32:55.638579Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2023-07-14T00:32:55.638579Z" count="1"/>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2023-07-14T00:36:05.414955Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Random/1024x1024.png" added="2023-07-14T00:35:53.063759Z" modified="2023-07-14T00:36:20.523550Z" visited="2023-07-14T00:35:53.063760Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2023-07-14T00:36:20.523547Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Random/OhMRUNEL_2x.png" added="2023-07-14T00:36:01.740917Z" modified="2023-07-14T00:36:01.740942Z" visited="2023-07-14T00:36:01.740919Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2023-07-14T00:36:01.740936Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Random/256x256.png" added="2023-07-14T00:36:11.462408Z" modified="2023-07-14T00:36:11.462416Z" visited="2023-07-14T00:36:11.462409Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Lutris" exec="&apos;lutris %u&apos;" modified="2023-07-14T00:36:11.462412Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/images-HD.jpg" added="2023-07-14T07:31:50.382794Z" modified="2023-07-14T07:31:50.382800Z" visited="2023-07-14T07:31:50.382795Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2023-07-14T07:31:50.382797Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Screenshots/Screenshot%20from%202023-07-14%2010-55-10.png" added="2023-07-14T07:55:10.389490Z" modified="2023-07-14T07:55:10.389497Z" visited="2023-07-14T07:55:10.389492Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2023-07-14T07:55:10.389493Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/3-dnf-apps-installer.sh" added="2023-07-14T08:06:04.909058Z" modified="2023-07-14T08:06:04.909067Z" visited="2023-07-14T08:06:04.909060Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2023-07-14T08:06:04.909063Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Screenshots/Screenshot%20from%202023-07-14%2011-08-08.png" added="2023-07-14T08:08:08.481175Z" modified="2023-07-14T08:08:08.481180Z" visited="2023-07-14T08:08:08.481176Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2023-07-14T08:08:08.481177Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Pictures/Screenshots/Screenshot%20from%202023-07-14%2011-11-49.png" added="2023-07-14T08:11:49.783740Z" modified="2023-07-14T08:11:49.783753Z" visited="2023-07-14T08:11:49.783741Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2023-07-14T08:11:49.783744Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/DotFiles" added="2023-07-14T08:22:45.337285Z" modified="2023-07-14T08:22:45.337292Z" visited="2023-07-14T08:22:45.337286Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2023-07-14T08:22:45.337288Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ender/Downloads/DotFiles/.local" added="2023-07-14T08:23:40.313688Z" modified="2023-07-14T08:23:40.313696Z" visited="2023-07-14T08:23:40.313689Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2023-07-14T08:23:40.313691Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

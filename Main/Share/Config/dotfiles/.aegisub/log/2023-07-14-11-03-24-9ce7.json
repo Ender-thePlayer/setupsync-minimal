@@ -1,0 +1,657 @@
+{
+	"func" : "Options",
+	"line" : 189,
+	"message" : "New Options object",
+	"sec" : 1153,
+	"section" : "agi/options",
+	"severity" : 4,
+	"usec" : 933462568
+}{
+	"func" : "Open",
+	"line" : 34,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1153,
+	"section" : "agi/io/open/file",
+	"severity" : 4,
+	"usec" : 934872304
+}{
+	"func" : "operator()",
+	"line" : 167,
+	"message" : "cleaning \"/home/ender/.aegisub/log/*.json\"",
+	"sec" : 1153,
+	"section" : "utils/clean_cache",
+	"severity" : 4,
+	"usec" : 935012017
+}{
+	"func" : "operator()",
+	"line" : 178,
+	"message" : "cache does not need cleaning (maxsize=10485760, cursize=7962, maxfiles=100, numfiles=2), exiting",
+	"sec" : 1153,
+	"section" : "utils/clean_cache",
+	"severity" : 4,
+	"usec" : 935101917
+}{
+	"func" : "init_builtin_commands",
+	"line" : 80,
+	"message" : "Populating command map",
+	"sec" : 1153,
+	"section" : "command/init",
+	"severity" : 4,
+	"usec" : 938165328
+}{
+	"func" : "Hotkey",
+	"line" : 91,
+	"message" : "Generating hotkeys.",
+	"sec" : 1153,
+	"section" : "hotkey/init",
+	"severity" : 4,
+	"usec" : 938357443
+}{
+	"func" : "Open",
+	"line" : 34,
+	"message" : "\"/home/ender/.aegisub/hotkey.json\"",
+	"sec" : 1153,
+	"section" : "agi/io/open/file",
+	"severity" : 4,
+	"usec" : 938369043
+}{
+	"func" : "MRUManager",
+	"line" : 67,
+	"message" : "Loading MRU List",
+	"sec" : 1153,
+	"section" : "agi/mru",
+	"severity" : 4,
+	"usec" : 939170905
+}{
+	"func" : "msg_callback",
+	"line" : 80,
+	"message" : "libass API version: 0x1701000",
+	"sec" : 1153,
+	"section" : "subtitle/provider/libass",
+	"severity" : 4,
+	"usec" : 986838113
+}{
+	"func" : "msg_callback",
+	"line" : 80,
+	"message" : "libass source: tarball: 0.17.1",
+	"sec" : 1153,
+	"section" : "subtitle/provider/libass",
+	"severity" : 4,
+	"usec" : 986869372
+}{
+	"func" : "msg_callback",
+	"line" : 80,
+	"message" : "Raster: FreeType 2.13.0",
+	"sec" : 1153,
+	"section" : "subtitle/provider/libass",
+	"severity" : 4,
+	"usec" : 986950768
+}{
+	"func" : "msg_callback",
+	"line" : 80,
+	"message" : "Shaper: FriBidi 1.0.12 (SIMPLE) HarfBuzz-ng 7.1.0 (COMPLEX)",
+	"sec" : 1153,
+	"section" : "subtitle/provider/libass",
+	"severity" : 4,
+	"usec" : 987145299
+}{
+	"func" : "msg_callback",
+	"line" : 80,
+	"message" : "Initialized",
+	"sec" : 1153,
+	"section" : "subtitle/provider/libass",
+	"severity" : 4,
+	"usec" : 987154164
+}{
+	"func" : "msg_callback",
+	"line" : 80,
+	"message" : "Using font provider fontconfig",
+	"sec" : 1154,
+	"section" : "subtitle/provider/libass",
+	"severity" : 4,
+	"usec" : 40281625
+}{
+	"func" : "FrameMain",
+	"line" : 100,
+	"message" : "Entering FrameMain constructor",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 88657157
+}{
+	"func" : "FrameMain",
+	"line" : 111,
+	"message" : "Initializing context controls",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 88681200
+}{
+	"func" : "FrameMain",
+	"line" : 118,
+	"message" : "Initializing context frames",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 88685381
+}{
+	"func" : "FrameMain",
+	"line" : 122,
+	"message" : "Apply saved Maximized state",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 88686562
+}{
+	"func" : "FrameMain",
+	"line" : 125,
+	"message" : "Initialize toolbar",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 88688285
+}{
+	"func" : "Populate",
+	"line" : 130,
+	"message" : "Command 'tool/assdraw' not found; skipping",
+	"sec" : 1154,
+	"section" : "toolbar/command/not_found",
+	"severity" : 2,
+	"usec" : 99997272
+}{
+	"func" : "FrameMain",
+	"line" : 130,
+	"message" : "Initialize menu bar",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 103664938
+}{
+	"func" : "process_menu_item",
+	"line" : 407,
+	"message" : "Skipping command tool/assdraw: 'tool/assdraw' is not a valid command name",
+	"sec" : 1154,
+	"section" : "menu/command/not_found",
+	"severity" : 2,
+	"usec" : 109487413
+}{
+	"func" : "process_menu_item",
+	"line" : 407,
+	"message" : "Skipping command help/forums: 'help/forums' is not a valid command name",
+	"sec" : 1154,
+	"section" : "menu/command/not_found",
+	"severity" : 2,
+	"usec" : 120918510
+}{
+	"func" : "process_menu_item",
+	"line" : 407,
+	"message" : "Skipping command app/updates: 'app/updates' is not a valid command name",
+	"sec" : 1154,
+	"section" : "menu/command/not_found",
+	"severity" : 2,
+	"usec" : 121232717
+}{
+	"func" : "FrameMain",
+	"line" : 133,
+	"message" : "Create status bar",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 122938453
+}{
+	"func" : "FrameMain",
+	"line" : 136,
+	"message" : "Set icon",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 130774460
+}{
+	"func" : "FrameMain",
+	"line" : 145,
+	"message" : "Create views and inner main window controls",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 131028706
+}{
+	"func" : "InitContents",
+	"line" : 185,
+	"message" : "Create background panel",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 131033741
+}{
+	"func" : "InitContents",
+	"line" : 188,
+	"message" : "Create subtitles grid",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 131132090
+}{
+	"func" : "InitContents",
+	"line" : 191,
+	"message" : "Create video box",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 152322148
+}{
+	"func" : "InitContents",
+	"line" : 194,
+	"message" : "Create audio box",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 279696215
+}{
+	"func" : "InitContents",
+	"line" : 197,
+	"message" : "Create subtitle editing box",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 296914289
+}{
+	"func" : "OnLanguageChanged",
+	"line" : 214,
+	"message" : "\"/usr/share/hunspell/en_US.dic\"",
+	"sec" : 1154,
+	"section" : "dictionary/file",
+	"severity" : 3,
+	"usec" : 352555456
+}{
+	"func" : "Open",
+	"line" : 34,
+	"message" : "\"/home/ender/.aegisub/dictionaries/user_en_US.dic\"",
+	"sec" : 1154,
+	"section" : "agi/io/open/file",
+	"severity" : 4,
+	"usec" : 387444671
+}{
+	"func" : "InitContents",
+	"line" : 200,
+	"message" : "Arrange main sizers",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 405220508
+}{
+	"func" : "InitContents",
+	"line" : 213,
+	"message" : "Perform layout",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 405348249
+}{
+	"func" : "InitContents",
+	"line" : 215,
+	"message" : "Leaving InitContents",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 420051305
+}{
+	"func" : "FrameMain",
+	"line" : 149,
+	"message" : "Set up drag/drop target",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 420066721
+}{
+	"func" : "FrameMain",
+	"line" : 152,
+	"message" : "Load default file",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 420091315
+}{
+	"func" : "FrameMain",
+	"line" : 155,
+	"message" : "Display main window",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 423126313
+}{
+	"func" : "FrameMain",
+	"line" : 160,
+	"message" : "Leaving FrameMain constructor",
+	"sec" : 1154,
+	"section" : "frame_main/init",
+	"severity" : 3,
+	"usec" : 424963930
+}{
+	"func" : "operator()",
+	"line" : 167,
+	"message" : "cleaning \"/home/ender/.aegisub/autosave/*.AUTOSAVE.ass\"",
+	"sec" : 1154,
+	"section" : "utils/clean_cache",
+	"severity" : 4,
+	"usec" : 425183742
+}{
+	"func" : "operator()",
+	"line" : 178,
+	"message" : "cache does not need cleaning (maxsize=104857600, cursize=0, maxfiles=1000, numfiles=0), exiting",
+	"sec" : 1154,
+	"section" : "utils/clean_cache",
+	"severity" : 4,
+	"usec" : 425209879
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1178,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 36080427
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1195,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 822440710
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1203,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 906326169
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1210,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 872361783
+}{
+	"func" : "Scan",
+	"line" : 128,
+	"message" : "Found: Enter  Context: Subtitle Edit Box  Command: grid/line/next/create",
+	"sec" : 1218,
+	"section" : "agi/hotkey/found",
+	"severity" : 4,
+	"usec" : 269812527
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1232,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 836684375
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1241,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 370310609
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1251,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 504365782
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1257,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 60859515
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1262,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 931372321
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/autosave/Untitled.2023-07-14-11-05-24.AUTOSAVE.ass\"",
+	"sec" : 1274,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 90551829
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1275,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 369629606
+}{
+	"func" : "Save",
+	"line" : 49,
+	"message" : "\"/home/ender/.aegisub/config.json\"",
+	"sec" : 1285,
+	"section" : "agi/io/save/file",
+	"severity" : 4,
+	"usec" : 759077105
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 761937308
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762056084
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762093772
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762124980
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762153828
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762179483
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762205774
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762231331
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762261263
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762285488
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762577521
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762625003
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 762653572
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 763799187
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 763861945
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 763896669
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 763925352
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 763954097
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 763978751
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 764063436
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 764092952
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 764118447
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 764143124
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 764168133
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 764192215
+}{
+	"func" : "ObjectGarbageCollect",
+	"line" : 600,
+	"message" : "Garbage collected LuaAssFile",
+	"sec" : 1285,
+	"section" : "automation/lua",
+	"severity" : 4,
+	"usec" : 764216619
+}
