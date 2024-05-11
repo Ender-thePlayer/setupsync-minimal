@@ -32,6 +32,7 @@ flatpak install --user -y flathub com.valvesoftware.Steam
 flatpak install --user -y flathub net.lutris.Lutris
 flatpak install --user -y com.github.maoschanz.drawing
 flatpak install --user -y org.gnome.World.PikaBackup
+flatpak install --user -y flathub org.kde.kdenlive
 
 if [ "$( distro )" = "arch" ]; then
     flatpak install --user -y flathub org.libreoffice.LibreOffice
@@ -41,7 +42,6 @@ fi
 ## Flatpak version of kdenlive looks broken on GNOME on wayland
 # sudo flatpak mask org.kde.WaylandDecoration.QAdwaitaDecorations//5.15-22.08
 # sudo flatpak remove org.kde.WaylandDecoration.QAdwaitaDecorations//5.15-22.08
-# flatpak install --user -y flathub org.kde.kdenlive
 # flatpak override --user --env=QT_QPA_PLATFORM=xcb org.kde.kdenlive
 
 ## Fixes RPC for the Discord flatpak

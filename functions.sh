@@ -3,10 +3,10 @@
 function welcome_message {
     echo "=================================="
     echo "Welcome to SetupSync"
-    echo -e "Version:\e[1m 24.0511-beta\e[0m"
+    echo -e "Version:\e[1m 24.0512-beta\e[0m"
     echo "=================================="
     echo ""
-    echo "Released on: 11/05/2024"
+    echo "Released on: 12/05/2024"
     echo ""
 }
 function list_message {

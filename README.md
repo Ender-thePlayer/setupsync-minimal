@@ -20,4 +20,4 @@ When it is done, it will ask you if you want to change the default shell to `fis
 
 ## Dependencies
 
-Any recent enough install of `sudo` and `systemd` will be enough!
+Any recent enough install of `sudo` (and configured) will be enough!

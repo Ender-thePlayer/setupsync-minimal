@@ -81,6 +81,7 @@ if [ "$( distro )" = "arch" ]; then
     echo -e 'MOZC_IBUS_CANDIDATE_WINDOW=ibus' | sudo tee -a /etc/environment
     echo -e 'QT_STYLE_OVERRIDE=breeze' | sudo tee -a /etc/environment
     echo -e 'EDITOR=gnome-text-editor' | sudo tee -a /etc/environment
+    xdg-mime default org.gnome.TextEditor.desktop text/plain inode/directory  
 fi
 
 

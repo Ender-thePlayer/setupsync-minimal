@@ -22,7 +22,6 @@ sudo pacman -S --noconfirm qemu
 sudo pacman -S --noconfirm qemu-full
 sudo pacman -S --noconfirm virt-manager
 sudo pacman -S --noconfirm pnpm
-sudo pacman -S --noconfirm kdenlive
 sudo pacman -S --noconfirm breeze
 sudo pacman -S --noconfirm borg
 sudo pacman -S --noconfirm loupe
@@ -44,12 +43,12 @@ sudo pacman -S --noconfirm vim-minimal
 sudo pacman -S --noconfirm fish
 sudo pacman -S --noconfirm meson
 sudo pacman -S --noconfirm sbctl
+# sudo pacman -S --noconfirm kdenlive
 
 sudo systemctl start libvirtd.service
 sudo systemctl enable libvirtd.service
 
-
-paru -S vscodium --noconfirm
+paru -S vscodium-bin --noconfirm
 paru -S mutter-dynamic-buffering --noconfirm
 paru -S ibus-mozc --noconfirm
 paru -S downgrade --noconfirm

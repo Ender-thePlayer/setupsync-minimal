@@ -47,12 +47,11 @@ sudo dnf5 install -y qemu
 sudo dnf5 install -y virt-manager
 sudo dnf5 install -y codium
 sudo dnf5 install -y pnpm
-sudo dnf5 install -y kdenlive
 sudo dnf5 install -y plasma-breeze
 sudo dnf5 install -y htop
 sudo dnf5 install -y borg
 
-
+# sudo dnf5 install -y kdenlive
 # sudo dnf5 install -y grub-customizer
 # sudo dnf5 install -y input-remapper
 

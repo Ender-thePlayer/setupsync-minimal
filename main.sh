@@ -352,7 +352,7 @@ if [ $error_code -eq 0 ]; then
         fi
         sleep 1
     done; sleep 2
-    sudo shutdown -r now
+    sudo reboot -n
 
 else
     fatal_error "An unrecoverable error has occurred!" $error_code
