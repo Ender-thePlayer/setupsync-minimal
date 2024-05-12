@@ -13,7 +13,7 @@ Then it will ask you if you want to run setupsync like usual, but only configuri
 
 After you select an option, it will ask you for access to **SUPERUSER PRIVILEGES** through `sudo`. After that, it will run automatically for the most of the time.
 
-*Note, sometime in the middle, where spicetify will ask you for confirmation, I cannot automate this for some reason!
+*Note, sometime in the middle, spicetify will ask you for confirmation, I cannot automate this for some reason!
 
 When it is done, it will ask you if you want to change the default shell to `fish` and if you want to enroll the fingerprint, then if you want to restart!
 
