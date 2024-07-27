@@ -1,6 +1,0 @@
-game:
-  exe: /home/ender/Documents/Games/Steam/OneShot.v2022.12.06/OneShot.v2022.12.06/steamshim.exe
-  working_dir: /home/ender/Documents/Games/Steam/OneShot.v2022.12.06/OneShot.v2022.12.06
-system:
-  game_path: /home/ender/Documents/Games/Steam/OneShot.v2022.12.06/UserData
-wine: {}

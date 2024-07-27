@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Meinkraft
-Exec=/usr/bin/java -jar '/home/ender/Documents/Games/Minecraft/SKlauncher/SKlauncher-3.1.1.jar'
-Comment=
-Terminal=false
-Icon=/home/ender/.local/share/applications/icons/meinkraft.png
-Type=Application
