@@ -1,0 +1,255 @@
+@define-color bg-color #222222;
+@define-color accent #AAAAAA;
+@define-color cc-accent#2b2b39;
+@define-color control-bg rgba(34, 34, 34, 0.85);
+
+* {
+  font-family: Inter Bold;
+}
+
+.blank-window {
+   background: transparent;
+}
+
+/*** NOTIFICATIONS ***/
+.notification {
+  background: @bg-color;
+  border-radius: 0px;
+}
+
+.notification-row {
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.control-center .notification-row:focus,
+.control-center .notification-row:hover {
+  opacity: 1;
+  background: @noti-bg-darker;
+}
+
+.notification-content {
+  background: @bg-color;
+  border-radius: 0px;
+  padding: 0px;
+  color: #808786;
+}
+
+.notification.low progressbar,
+.notification.normal progressbar,
+.notification.critical progressbar {
+  padding: 0 10px 10px 10px;
+  margin-top: 0px;
+}
+
+.notification.low progressbar trough,
+.notification.normal progressbar trough,
+.notification.critical progressbar trough {
+  border-radius: 0px;
+  min-height: 8px;
+  border-style: solid;
+  border-color: @accent;
+  border-width: 1px 2px;
+}
+
+.notification.low progressbar trough progress,
+.notification.normal progressbar trough progress,
+.notification.critical progressbar trough progress {
+  background-color: #7F7FFF;
+  border-radius: 0px;
+  min-height: 8px;
+}
+
+.notification-action, .notification-default-action {
+  margin: 0;
+  padding: 0;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: #1a1a1a;
+  color: @accent;
+}
+
+.close-button {
+  background: @bg-color;
+  color: @accent;
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 0px;
+  margin-top: 1px;
+  margin-right: -1px;
+}
+
+.close-button:hover {
+  box-shadow: none;
+  color: @bg-color;
+  background: #f7768e;
+  transition: all 0.15s ease-in-out;
+  border: none;
+}
+
+.low {
+  background: @accent;
+  padding: 2px;
+}
+
+.normal {
+  background: @accent;
+  padding: 2px;
+}
+
+.critical {
+  background: #ff0000;
+  padding: 2px;
+}
+
+.image {
+  border-radius: 0px;
+  margin: 8px 0px 8px 8px;
+  padding: 0;
+}
+
+.summary {
+  font-size: 13px;
+  font-weight: 700;
+  background: transparent;
+  color: @accent;
+  text-shadow: none;
+  padding: 10px 10px 0 8px;
+  margin-bottom: 0px;
+}
+
+.time {
+  font-size: 13px;
+  font-weight: 700;
+  background: transparent;
+  color: #808786;
+  text-shadow: none;
+  margin-right: 18px;  
+}
+
+.notification.low progressbar,
+.notification.normal progressbar,
+.notification.critical progressbar {
+  padding: 0 8px 8px 8px;
+  margin-top: 0px;
+}
+
+.body {
+  font-size: 13px;
+  font-weight: 700;
+  background: transparent;
+  color: @accent;
+  text-shadow: none;
+  border-radius: 0px;
+  padding: 0 10px 10px 8px; 
+  margin-top: 0px;
+}
+
+
+
+/*** CONTROL CENTER ***/
+.control-center {
+  background: @control-bg;
+  border: 2px solid #888888;
+  border-radius: 0px;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.control-center-list-placeholder {
+  opacity: 0.5;
+}
+
+.floating-notifications {
+  background: transparent;
+}
+
+.blank-window {
+  background: alpha(black, 0.1);
+}
+
+.widget-title {
+  color: @accent;
+  background: rgba(43, 43, 57, 0.85);
+  padding: 5px 10px;
+  margin: 10px 10px 5px 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.widget-title > button {
+  font-size: 1rem;
+  color: @accent;
+  text-shadow: none;
+  background: @bg-color;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+.widget-title > button:hover {
+  background: #f7768e;
+  color: @bg-color;
+}
+
+.widget-dnd {
+  background: rgba(43, 43, 57, 0.85);
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  font-size: large;
+  color: @accent;
+}
+
+.widget-dnd > switch {
+  border-radius: 5px;
+  background: @accent;
+}
+
+.widget-dnd > switch:checked {
+  background: #f7768e;
+  border: 1px solid #f7768e;
+}
+
+.widget-dnd > switch slider,
+.widget-dnd > switch:checked slider {
+  background: @bg-color;
+  border-radius: 5px;
+}
+
+.widget-label {
+  margin: 10px 10px 5px 10px;
+}
+
+.widget-label > label {
+  font-size: 1rem;
+  color: @accent;
+}
+
+.widget-mpris {
+  /* The parent to all players */
+}
+
+.widget-mpris-player {
+  padding: 8px;
+  margin: 8px;
+  background-color: @bg-color;
+  border-radius: 0px;
+  border: 2px solid @accent;
+  color: @text-color;
+}
+
+.widget-mpris-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.widget-mpris-subtitle {
+  font-size: 1.1rem;
+}
+
+
+

@@ -1,0 +1,15 @@
+[cache]
+version = 1
+repository = 7321c22b7ed552e37793f48a6fd3f1557c8dfbe6fb546721b8deffe97d4a58d7
+manifest = 37983d40197448fabf6f3fc37a64ce3ac94c5a4ef10fb8e128ce06068b4cec3b
+previous_location = /home/ender/Downloads/desktop/Desktop
+timestamp = 2024-03-10T13:52:33.552107
+ignored_features = 
+mandatory_features = 
+key_type = 5
+
+[integrity]
+manifest = 37983d40197448fabf6f3fc37a64ce3ac94c5a4ef10fb8e128ce06068b4cec3b
+files = {"algorithm": "XXH64", "digests": {"final": "0f6962fd9ad8fffa"}}
+chunks = {"algorithm": "XXH64", "digests": {"HashHeader": "d8c14b20782ae1b1", "final": "5fca65f840a8f8a3"}}
+

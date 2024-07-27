@@ -1,0 +1,5 @@
+[Plugins]
+kdeconnect_mpriscontrolEnabled=false
+kdeconnect_mprisremoteEnabled=false
+kdeconnect_notificationsEnabled=false
+kdeconnect_systemvolumeEnabled=true

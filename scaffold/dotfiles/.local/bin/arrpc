@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+if ( ping -c 3 www.google.com || ping -c 3 www.wikipedia.org )
+then
+    mkdir "$HOME/.local/share/arrpc"
+    rm -rf "$HOME/.local/share/arrpc/"*.tar.gz
+    wget "https://api.github.com/repos/OpenAsar/arrpc/tarball" -O "$HOME/.local/share/arrpc/arrpc.tar.gz" || exit 1
+
+    tar -xzvf "$HOME/.local/share/arrpc/arrpc.tar.gz" -C "$HOME/.local/share/arrpc"
+    cd "$HOME"/.local/share/arrpc/*/ || exit 1
+    pnpm i
+fi
+
+cd "$HOME"/.local/share/arrpc/*/ || exit 1
+node src

@@ -1,0 +1,18 @@
+[Default Applications]
+application/x-shellscript=org.gnome.TextEditor.desktop
+text/plain=org.gnome.TextEditor.desktop
+inode/directory=org.gnome.TextEditor.desktop
+text/html=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+audio/mpeg=vlc.desktop
+image/=org.gnome.Loupe.desktop
+image/bmp=org.gnome.Loupe.desktop
+image/png=org.gnome.Loupe.desktop
+image/jpg=org.gnome.Loupe.desktop
+
+[Added Associations]
+application/x-shellscript=org.gnome.TextEditor.desktop;
+audio/mpeg=vlc.desktop;

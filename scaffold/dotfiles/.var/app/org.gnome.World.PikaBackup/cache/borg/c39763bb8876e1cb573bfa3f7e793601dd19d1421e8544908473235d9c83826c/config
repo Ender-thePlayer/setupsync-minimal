@@ -1,0 +1,15 @@
+[cache]
+version = 1
+repository = c39763bb8876e1cb573bfa3f7e793601dd19d1421e8544908473235d9c83826c
+manifest = 89bfe281c490b175cae48f0167706ad288ef6d7ad3371137ee9e10c30a19bc65
+previous_location = /home/ender/Downloads/EU-X/Desktop/backup-fedora-ender
+timestamp = 2024-03-30T20:22:55.918053
+ignored_features = 
+mandatory_features = 
+key_type = 5
+
+[integrity]
+manifest = 89bfe281c490b175cae48f0167706ad288ef6d7ad3371137ee9e10c30a19bc65
+chunks = {"algorithm": "XXH64", "digests": {"HashHeader": "e86017fd91c5c947", "final": "311d767d366db0cd"}}
+files = {"algorithm": "XXH64", "digests": {"final": "fed872022df92b1c"}}
+

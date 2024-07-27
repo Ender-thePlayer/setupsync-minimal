@@ -1,0 +1,208 @@
+[
+  {
+    "config_version": 2,
+    "id": "04dec251-844f-436e-9c3c-684ebe89320d",
+    "archive_prefix": "62cb05-",
+    "repo_id": "e337ca4801df70b2fd67296b3f9b4f3c34743c916d1b84dba8ddabf49fbf9139",
+    "repo": {
+      "type": "Local",
+      "path": "Desktop",
+      "mount_path": "/run/media/ender/EU-2",
+      "uri": "file:///run/media/ender/EU-2/Desktop",
+      "drive_name": "ST9320423AS",
+      "mount_name": "EU-2",
+      "volume_uuid": "bf3caeb0-2cc8-4e6a-bbd5-a2a40ce534d1",
+      "volume_uuid_identifier": "29b3e7e4-02ef-4dab-8548-28c9e44049ae",
+      "removable": true,
+      "icon": ". GEmblemedIcon .%20GThemedIcon%20drive-harddisk-usb%20drive-harddisk%20drive%20drive-harddisk-usb-symbolic%20drive-harddisk-symbolic%20drive-symbolic .%20GEmblem%20changes-allow%201",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-usb-symbolic drive-harddisk-symbolic drive-symbolic drive-harddisk-usb drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey-blake2",
+    "include": [
+      ".local/share/wineprefixes",
+      ".minecraft",
+      ".var/app/net.lutris.Lutris/config",
+      ".var/app/net.lutris.Lutris/data",
+      "Documents",
+      "Documents/Games/Minecraft",
+      "Music",
+      "Pictures",
+      "Videos/Projects",
+      "Videos/Random"
+    ],
+    "exclude": [
+      {
+        "PathPrefix": "Documents/Card"
+      }
+    ],
+    "schedule": {
+      "enabled": false,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "EU-2",
+    "user_scripts": {
+      "PreBackup": "~/.local/share/backup/prebackup.sh",
+      "PostBackup": "~/.local/share/backup/postbackup.sh"
+    }
+  },
+  {
+    "config_version": 2,
+    "id": "b23ffcab-48e5-4fb7-b050-5ee083bc084d",
+    "archive_prefix": "353d53-",
+    "repo_id": "cdbcbec0cded1696351a3e5005eb9a05c89e49d05ced0ab3a9aa981ec5be5b30",
+    "repo": {
+      "type": "Local",
+      "path": "/home/ender/Documents/Card",
+      "mount_path": "/",
+      "uri": null,
+      "drive_name": null,
+      "mount_name": "home",
+      "volume_uuid": null,
+      "volume_uuid_identifier": null,
+      "removable": false,
+      "icon": ". GThemedIcon drive-harddisk drive drive-harddisk-symbolic drive-symbolic",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-symbolic drive-symbolic drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey-blake2",
+    "include": [
+      "/run/media/ender/EF95-0C0B"
+    ],
+    "exclude": [
+      {
+        "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+      },
+      {
+        "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+      },
+      {
+        "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+      },
+      {
+        "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+      },
+      {
+        "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+      },
+      {
+        "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+      }
+    ],
+    "schedule": {
+      "enabled": false,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "Card",
+    "user_scripts": {
+      "PostBackup": "~/.local/share/backup/card-postbackup.sh"
+    }
+  },
+  {
+    "config_version": 2,
+    "id": "c8e9262f-4da2-4409-a794-915d7c469feb",
+    "archive_prefix": "34ad8a-",
+    "repo_id": "dac007639bbf3ea5743e21d1a1214333a71630a5ad24c7f129b7370b66752b25",
+    "repo": {
+      "type": "Local",
+      "path": "Desktop",
+      "mount_path": "/run/media/ender/EU-1",
+      "uri": "file:///run/media/ender/EU-1/Desktop",
+      "drive_name": "SSDPR-CX400-512",
+      "mount_name": "EU-1",
+      "volume_uuid": "dcaa3faf-8efa-4611-9b29-7d515f0bc546",
+      "volume_uuid_identifier": "74e678f5-19d0-437e-8bfb-98cd873965ac",
+      "removable": true,
+      "icon": ". GEmblemedIcon .%20GThemedIcon%20drive-harddisk-usb%20drive-harddisk%20drive%20drive-harddisk-usb-symbolic%20drive-harddisk-symbolic%20drive-symbolic .%20GEmblem%20changes-allow%201",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-usb-symbolic drive-harddisk-symbolic drive-symbolic drive-harddisk-usb drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey-blake2",
+    "include": [
+      ".local/share/wineprefixes",
+      ".minecraft",
+      ".var/app/net.lutris.Lutris/config",
+      ".var/app/net.lutris.Lutris/data",
+      "Documents",
+      "Documents/Games/Minecraft",
+      "Music",
+      "Pictures",
+      "Videos/Projects",
+      "Videos/Random"
+    ],
+    "exclude": [
+      {
+        "PathPrefix": "Documents/Card"
+      }
+    ],
+    "schedule": {
+      "enabled": false,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "EU-1",
+    "user_scripts": {
+      "PreBackup": "~/.local/share/backup/prebackup.sh",
+      "PostBackup": "~/.local/share/backup/postbackup.sh"
+    }
+  }
+]

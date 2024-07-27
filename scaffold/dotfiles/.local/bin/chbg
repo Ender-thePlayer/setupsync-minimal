@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+
+jpg=false
+png=false
+webp=false
+
+
+
+if [ -n "$1" ]; then
+type=$(file --mime-type -b "$1")
+case $type in
+image/jpeg)
+    jpg=true
+    ;;
+image/png)
+    png=true
+    ;;
+image/webp)
+    webp=true
+    ;;
+*)
+    echo "[ERROR] '$1' is not a JPEG, PNG, or WebP file. Aborting..."; exit 1
+    ;;
+esac
+
+if $jpg || $png || $webp; then
+
+if [ -e "$1" ]; then
+cat <<EOF > ~/.config/hypr/hyprpaper.conf
+preload = $1
+wallpaper = ,$1
+EOF
+
+sed -i "s|^\(\s*path\s*=\s*\).*$|\1$1|" ~/.config/hypr/hyprlock.conf
+pkill hyprpaper
+hyprpaper &> /dev/null &
+disown %1
+
+echo "Changed background to $1"
+
+
+else
+echo "[ERROR] Not changed background! No file found!"; return 1
+fi
+
+fi
+
+else
+echo "[ERROR] Not changed background! No file input!"; return 1
+fi

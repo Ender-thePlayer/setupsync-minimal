@@ -1,0 +1,15 @@
+[cache]
+version = 1
+repository = dac007639bbf3ea5743e21d1a1214333a71630a5ad24c7f129b7370b66752b25
+manifest = 29574aee39df6f48cb15f7b1c74590c214118d8de74c316e8212d2e45c089eae
+previous_location = /run/media/ender/EU-1/Desktop
+timestamp = 2024-05-31T09:09:13.951047
+ignored_features = 
+mandatory_features = 
+key_type = 5
+
+[integrity]
+manifest = 29574aee39df6f48cb15f7b1c74590c214118d8de74c316e8212d2e45c089eae
+chunks = {"algorithm": "XXH64", "digests": {"HashHeader": "7462d7fdc7152eca", "final": "5c2e9665a033805a"}}
+files = {"algorithm": "XXH64", "digests": {"final": "1cbb7e29d38d01f1"}}
+

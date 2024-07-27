@@ -1,0 +1,14 @@
+[cache]
+version = 1
+repository = 251f8c9270435f47af1e301483e6d943f61fcd745a671938ce014bf0a2422af2
+manifest = 4f8233135c4c1e1b5477c0488eeea4e6893a0e4d0ba14d18203dc0f0a11bfc79
+previous_location = /home/ender/Downloads/Baremele pentru Informatică, Fizică, Chimie, Biologie și Anatomie, simulare BAC 2024, publicate de Ministerul Educației - Edupedu.ro_files/backup-fedora-ender
+timestamp = 2024-03-10T21:44:22.758368
+ignored_features = 
+mandatory_features = 
+key_type = 5
+
+[integrity]
+manifest = 4f8233135c4c1e1b5477c0488eeea4e6893a0e4d0ba14d18203dc0f0a11bfc79
+chunks = {"algorithm": "XXH64", "digests": {"HashHeader": "9ad7a68da3e71493", "final": "98d9c09c4d061808"}}
+
