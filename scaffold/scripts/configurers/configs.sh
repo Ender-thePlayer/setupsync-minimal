@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-###NOTE: There was config for a QEMU KVM and librewolf but I decided not to include them here!
+###NOTE: There was config for a QEMU KVM but I decided not to include it here!
 
 # shellcheck source=/dev/null
 source ./scaffold/functions.sh
