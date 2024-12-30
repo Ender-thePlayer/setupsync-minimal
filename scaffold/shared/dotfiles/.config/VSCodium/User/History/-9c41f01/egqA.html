@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html style="font-size: 20px;font-family: Inter, Helvetica, Arial, sans-serif;" lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta property="og:title" content="EnderDatsIts' Scuffed Site">
+    <meta property="og:description" content="夢のように愛して　愛のように夢をみて">
+    <meta property="og:image" content="https://ender-theplayer.github.io/og_image.png">
+    <meta property="og:type" content="website"> <!-- or 'article' for articles -->
+    <title>EnderDatsIts' Scuffed Site</title>
+
+    <!-- CSS -->
+    <!-- more css than html moment -->
+    <style>
+        /* normal website layout */
+        body {
+            background-color: #222222;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .header {
+            position: relative;
+            border: 0.5vw solid #e6d8d8;
+            box-sizing: border-box;
+            overflow: hidden;
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-wrap: wrap;
+            margin: 1vw 1vw 0 1vw;
+        }
+        
+        .header::before {
+            content: ""; /* Create a pseudo-element */
+            position: absolute; /* Absolute positioning inside the header */
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url("s.webp"); /* Use the same image */
+            background-size: cover;
+            background-position: center;
+            filter: blur(4px); /* Blur effect */
+            z-index: -1; /* Place it behind the content */
+        }
+        
+        .header::after {
+            content: ""; /* Create a dark overlay */
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(34, 34, 34, 0.39); /* Black overlay with 50% opacity */
+            z-index: -1; /* Place it between the content and the blurred image */
+        }
+
+        
+        .header img {
+            width: 300px;
+            margin: 1vw 0 1vw 1vw;
+        }
+        .text-content {
+            margin-left: 40px;
+            margin-top: 40px;
+            margin-right: 3vw;
+            margin-bottom: 80px;
+        }
+        .text-content h1, .text-content h5 {
+            color: #f5f5f5;
+            font-size: 20px;
+        }
+        .text-content h1 {
+            margin-bottom: 0.5vw;
+            font-size: 50px;
+        }
+        .text-content h5 {
+            margin-top: 0;
+        }
+        .link-content a {
+            color: #e6d8d8;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .intro {
+            margin: 50px 2.5vw 0 2.5vw;
+            clear: both;
+        }
+        .intro h1, .intro h6, .intro h3, .intro h5{
+            color: #e6d8d8;
+        }
+        .intro h1 {
+            margin-bottom: 10px;
+            font-size: 40px;
+        }
+        .intro h3 {
+            margin-top: 10px;
+            margin-bottom: 0;
+            font-size: 30px;
+        }
+        .intro h6 {
+            margin-top: 10px;
+            font-size: 20px;
+            margin-bottom: 35px;
+        }
+        .intro h5 {
+            margin-top: 10px;
+            font-size: 20px;
+            margin-bottom:10px;
+        }
+        .intro iframe {
+            margin-bottom:35px;
+            width: 70%;
+            max-width: 70%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .intro img {
+            margin-bottom:35px;
+            width: 70%;
+            max-width: 70%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img.tf_im_doing_with_my_life {
+            margin-bottom:35px;
+            width: 34%;
+            max-width: 34%;
+            display: block;
+            
+        }
+        .short-text {
+            display: none;
+        }
+        .footer h4{
+            color: #e6d8d8;
+            margin: 2px 5px;
+        }
+        .footer p, .footer a {
+            color: #222222;
+            margin: 0 0 0 5px;
+        }
+        .rick {
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+        .rick p {
+            padding-left:2%
+        }
+
+
+        /* website responsiveness at 1051px width */
+        @media (max-width: 1051px) {
+            .text-content h1 {
+                font-size: 40px;
+            }
+            .text-content h5 {
+                font-size: 20px;                
+            }
+        }
+
+
+        /* website responsiveness at 913px width */
+        @media (max-width: 913px) {
+            .text-content {
+                margin-left: 20px;
+                margin-right: 2vw;
+            }
+            .text-content h1 {
+                font-size: 35px;
+            }
+            .text-content h5 {
+                font-size: 20px;                
+            }
+        }
+
+
+        /* website responsiveness at 815px width (porbably mobile phones) */
+        @media (max-width: 815px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+            }
+            .header img {
+                width: 40%;
+                margin: 3vw 0 0 0;
+            }
+            .text-content {
+                margin: 0 0 5vw 0;
+                text-align: center;
+            }
+            .text-content h1 {
+                margin-bottom: 0.5vw;
+                font-size: 40px;
+            }
+            .link-content {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .intro {
+                text-align: center;
+            }
+            .intro iframe {
+                margin-bottom:35px;
+                width: 95%;
+                max-width: 95%;
+            }
+            .intro img {
+                margin-bottom:35px;
+                width: 95%;
+                max-width: 95%;
+            }
+            .short-text {
+                display: inline-block;
+            }
+            .full-text {
+                display: none;
+            }
+        }
+
+
+        /* website responsiveness at 600px width */
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+            }
+            .header img {
+                width: 40%;
+                margin: 5vw 0 0 0;
+            }
+            .text-content {
+                margin: 0 0 5vw 0;
+                text-align: center;
+            }
+            .text-content h1 {
+                margin-bottom: 0.5vw;
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+
+
+<!-- Actual html code ffs -->
+<body>
+    <div class="header">
+        <img src="picture.webp">
+        <div class="text-content">
+            <h1>EnderDatsIts' Scuffed Site</h1>
+            <h5>夢のように愛して　愛のように夢をみて</h5>
+            
+            <div class="link-content">
+                <a href="https://github.com/Ender-thePlayer">Github</a>
+                <a style="margin: 0px 10px;" href="https://x.com/ender_datsit">Twitter</a>
+                <a href="https://www.youtube.com/@lil_ender">Youtube</a>
+            </div>
+        </div>
+    </div>
+    <div class="intro">
+        <h1>Introduction</h1>
+        <h6>I'm from the Balkan triangle, more exactly from Romania 🇷🇴.
+            <br>I only do random shit that I like but I ain't no expert at any of them.
+        </h6>
+
+        <h1>What I like</h1>
+        <h3 class="full-text"> · Vocaloid</h3>
+        <h3 class="short-text">Vocaloid</h3>
+        <h5>
+            On March 18, 2022, YouTube introduced me to a genre of music that I quickly became obsessed with through "Lagtrain" by Inabakumori: Vocaloid, and later, J-Pop and J-Rock. I've enjoyed everything Inaba has produced over the years.
+            <br><br>Around April 2022, I discovered another musician I like, TUYU, through the song "Being Low as Dirt, Taking What's Important from Me" on Spotify. In the autumn of that year, I found another artist I enjoy, Harumaki Gohan. My appreciation for his music grew over time, and I eventually bought the album "Futarino".
+            <br>Some other artists I like include wowaka, ime44, iyowa, and DECO*27.
+            <br><br>My favorite song is "If I Could Become a Comet" by Harumaki Gohan.
+        </h5>
+        <iframe style="border-radius:2px;" src="https://open.spotify.com/embed/track/6AiNSP7GMAkIGaqQJiVJ3e?utm_source=generator" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h3 class="full-text"> · Linux</h3>
+        <h3 class="short-text">Linux</h3>
+
+        <h6>
+            In January 2021, I began experiencing persistent WiFi issues on my Windows computer. Despite finding temporary fixes, the problems persisted until February when a friend recommended trying Linux, specifically ZorinOS Lite, which he was using at the time. Without a USB stick or DVD, I managed to boot the ISO from my hard drive. I liked ZorinOS after testing it from the live environment, but in an unfortunate attempt to install it, I accidentally erased my Windows system along with the ISO file, leaving me without an operating system.
+            <br><br>After a week, I was able to install Lubuntu from an SD card. Using DVDs, I eventually burned a Windows 8.1 DVD and reinstalled Windows, subsequently upgrading to Windows 10 without needing a DVD. However, the appeal of Linux remained strong. A few months later, I successfully installed Linux again, though initially, I had to use USB tethering to get WiFi working. I began dual-booting Windows with ZorinOS but found myself using ZorinOS more frequently, leading me to switch entirely to ZorinOS.
+            <br><br>I used ZorinOS for over a year and enjoyed it, but I wanted to try Wayland and found ZorinOS 16's GNOME version kinda outdated for that. This led me to Fedora 38 Workstation, which I loved and used for another year. In April 2024, I decided to try ArchLinux and successfully installed it. I switched from GNOME to Hyprland, which I continue to use and enjoy to this day.
+        </h6>
+        <img src="rice.webp">
+
+        <h3 class="full-text"> · OneShot</h3>
+        <h3 class="short-text">Oneshot</h3>
+        <h6>
+            Niko, my beloved.
+        </h6>
+        <img class="tf_im_doing_with_my_life" src="niko.webp">
+    </div>
+</body>
+<footer class="footer">
+    <h4>ShawarmaNIEZ Group - EnderDatsIt</h4>
+    <div class="rick">
+        <p>Don't click</p>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=4T3ZKKzDbQRHLzSZ"> here</a>
+    </div>
+</footer>
+</html>

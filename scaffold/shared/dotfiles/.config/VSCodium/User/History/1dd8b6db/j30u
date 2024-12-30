@@ -1,0 +1,7 @@
+romode/__pycache__
+config.json
+.cache
+.gitignore
+romode-cli/
+misc/
+PKGBUILD

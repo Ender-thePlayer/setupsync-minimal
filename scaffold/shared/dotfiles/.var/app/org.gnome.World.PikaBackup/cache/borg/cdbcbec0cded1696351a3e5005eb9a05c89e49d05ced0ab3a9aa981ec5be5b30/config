@@ -1,0 +1,15 @@
+[cache]
+version = 1
+repository = cdbcbec0cded1696351a3e5005eb9a05c89e49d05ced0ab3a9aa981ec5be5b30
+manifest = 1470e1e71635cbf6212b1ce85e8f2dcf1174dbd28d755f6392ea30704e495959
+previous_location = /home/ender/Documents/Card
+timestamp = 2024-08-30T09:05:09.599827
+ignored_features = 
+mandatory_features = 
+key_type = 5
+
+[integrity]
+manifest = 1470e1e71635cbf6212b1ce85e8f2dcf1174dbd28d755f6392ea30704e495959
+chunks = {"algorithm": "XXH64", "digests": {"HashHeader": "b3ca2771c234b089", "final": "730351871c65eba5"}}
+files = {"algorithm": "XXH64", "digests": {"final": "bc4b1c567f7c40de"}}
+

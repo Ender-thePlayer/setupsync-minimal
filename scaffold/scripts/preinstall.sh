@@ -8,10 +8,10 @@ sudo reflector --country Romania --latest 5 --protocol http --protocol https --s
 sudo pacman -Syu --noconfirm
 
 
-
 ### PARU INSTALL
 git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin || exit 1
-makepkg -si --noconfirm
+makepkg -s --noconfirm
+sudo pacman -U --noconfirm paru-bin-*.tar.zst
 cd ..
 rm -rf ./paru-bin

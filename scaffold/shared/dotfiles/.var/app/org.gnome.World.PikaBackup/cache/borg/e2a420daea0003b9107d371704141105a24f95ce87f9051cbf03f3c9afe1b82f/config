@@ -1,0 +1,15 @@
+[cache]
+version = 1
+repository = e2a420daea0003b9107d371704141105a24f95ce87f9051cbf03f3c9afe1b82f
+manifest = d93a1a9fca9ce09871bf329b4875693227cbb0da5272c7b150cb7e749813dc71
+previous_location = /run/media/eepyender/EU-1/Desktop
+timestamp = 2024-11-30T13:50:44.606424
+ignored_features = 
+mandatory_features = 
+key_type = 5
+
+[integrity]
+manifest = d93a1a9fca9ce09871bf329b4875693227cbb0da5272c7b150cb7e749813dc71
+files = {"algorithm": "XXH64", "digests": {"final": "43c0115a3fa0584e"}}
+chunks = {"algorithm": "XXH64", "digests": {"HashHeader": "8190d4a20a0b90c7", "final": "261fdeca29665e52"}}
+

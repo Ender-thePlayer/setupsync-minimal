@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
+spicetify backup
+spicetify apply

@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+
+REPO="OpenAsar/arrpc"
+LOCAL_VERSION_FILE="$HOME/.local/share/arrpc/version.txt"
+DOWNLOAD_DIR="$HOME/.local/share/arrpc"
+TARBALL_PATH="$DOWNLOAD_DIR/arrpc.tar.gz"
+
+if ( ping -c 3 www.google.com || ping -c 3 www.wikipedia.org ); then
+    LATEST_TAG=$(curl -s "https://api.github.com/repos/$REPO/releases/latest" | jq -r '.tag_name')
+    if [ -z "$LATEST_TAG" ]; then
+        echo "Failed to fetch the latest release tag."
+        exit 1
+    fi
+
+    LOCAL_VERSION=""
+    if [ -f "$LOCAL_VERSION_FILE" ]; then
+        LOCAL_VERSION=$(cat "$LOCAL_VERSION_FILE")
+    fi
+
+    if [ "$LATEST_TAG" != "$LOCAL_VERSION" ]; then
+        mkdir -p "$DOWNLOAD_DIR"
+        rm -rf "$TARBALL_PATH"
+        wget "https://api.github.com/repos/$REPO/tarball" -O "$TARBALL_PATH" || exit 1
+        tar -xzvf "$TARBALL_PATH" -C "$DOWNLOAD_DIR"
+        echo "$LATEST_TAG" > "$LOCAL_VERSION_FILE"
+        cd "$DOWNLOAD_DIR"/*/ || exit 1
+        pnpm i
+    fi
+fi
+
+cd "$DOWNLOAD_DIR"/*/ || exit 1
+node src

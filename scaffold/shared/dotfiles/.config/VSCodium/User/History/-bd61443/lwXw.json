@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "window.titleBarStyle": "custom"
+}

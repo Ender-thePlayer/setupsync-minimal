@@ -1,0 +1,15 @@
+[cache]
+version = 1
+repository = 7e49c50aaf46c4ae9f8b19c7b166cc14d180aa6b35012aa623b0fcc8c0458218
+manifest = 87472ab75db173c457aa9545e709ae1bab93abcaf680e56f1c8683756607a2cf
+previous_location = /home/eepyender/Documents/Card
+timestamp = 2024-11-30T00:42:19.215128
+ignored_features = 
+mandatory_features = 
+key_type = 5
+
+[integrity]
+manifest = 87472ab75db173c457aa9545e709ae1bab93abcaf680e56f1c8683756607a2cf
+chunks = {"algorithm": "XXH64", "digests": {"HashHeader": "b4882cc5e6f4dfa0", "final": "2b762b4d8d164955"}}
+files = {"algorithm": "XXH64", "digests": {"final": "a0ae5bd47786b8a4"}}
+

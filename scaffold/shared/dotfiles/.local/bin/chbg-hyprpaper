@@ -1,0 +1,97 @@
+#!/usr/bin/env bash
+
+# Set strict error handling
+set -euo pipefail
+
+# Configuration
+CONFIG_DIR="$HOME/.config/hypr"
+HYPRPAPER_CONF="$CONFIG_DIR/hyprpaper.conf"
+HYPRLOCK_CONF="$CONFIG_DIR/hyprlock.conf"
+WALLPAPER_DIR="$HOME/.config/walls/active"
+WALLPAPER_NAME="current_wallpaper"
+
+error() {
+    echo "[ERROR] $1" >&2
+    exit 1
+}
+
+success() {
+    echo "[SUCCESS] $1"
+}
+
+ensure_config_dir() {
+    if [[ ! -d "$WALLPAPER_DIR" ]]; then
+        mkdir -p "$WALLPAPER_DIR" || error "Failed to create wallpaper directory"
+    fi
+}
+
+validate_image() {
+    local file="$1"
+    
+    [[ -f "$file" ]] || error "File not found: $file"
+    
+    local type
+    type=$(file --mime-type -b "$file") || error "Failed to determine file type"
+    
+    case "$type" in
+        image/jpeg) echo "jpg" ;;
+        image/png) echo "png" ;;
+        image/webp) echo "webp" ;;
+	image/gif) echo "gif" ;;
+        *) error "'$file' is not a JPEG, PNG, or WebP file" ;;
+    esac
+}
+
+cleanup_old_wallpapers() {
+    rm -f "$WALLPAPER_DIR"/* 2>/dev/null || true
+}
+
+copy_to_config() {
+    local source="$1"
+    local extension="$2"
+    local destination="$WALLPAPER_DIR/${WALLPAPER_NAME}.${extension}"
+    
+    cleanup_old_wallpapers
+    
+    cp "$source" "$destination" || error "Failed to copy wallpaper to config directory"
+    echo "$destination"
+}
+
+update_configs() {
+    local wallpaper="$1"
+    
+    cat > "$HYPRPAPER_CONF" << EOF || error "Failed to update hyprpaper config"
+preload = $wallpaper
+wallpaper = ,$wallpaper
+EOF
+    
+    if [[ -f "$HYPRLOCK_CONF" ]]; then
+        sed -i "s|^\(\s*path\s*=\s*\).*$|\1$wallpaper|" "$HYPRLOCK_CONF" || \
+            error "Failed to update hyprlock config"
+    fi
+}
+
+restart_hyprpaper() {
+    pkill hyprpaper || true  # Don't error if process wasn't running
+    hyprpaper &> /dev/null &
+    disown %1
+}
+
+main() {
+    [[ $# -eq 1 ]] || error "Usage: $0 <image-file>"
+    
+    local input_file="$1"
+    
+    local extension
+    extension=$(validate_image "$input_file")
+    
+    ensure_config_dir
+    
+    local config_file
+    config_file=$(copy_to_config "$input_file" "$extension")
+    update_configs "$config_file"
+    restart_hyprpaper
+    success "Changed background to $config_file"
+}
+
+main "$@"

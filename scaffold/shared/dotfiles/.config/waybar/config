@@ -1,0 +1,123 @@
+{
+  "position": "top",
+  "spacing": 0,
+  "margin-top": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+
+  "modules-left": [
+    "custom/logo",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "clock",
+    "custom/weather"
+  ],
+  "modules-right": [
+    "tray",
+    "battery",
+    "group/hardware",
+    "pulseaudio",
+    "bluetooth"
+  ],
+    
+
+  "custom/logo": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "wlogout -b 2 --protocol layer-shell"
+  },
+
+  "hyprland/workspaces": {
+    "persistent-workspaces": false,
+    "disable-scroll": false,
+    "all-outputs": true,
+    "on-scroll-down": "hyprctl dispatch workspace r-1",
+    "on-scroll-up": "$HOME/.config/scripts/workspace_switch.sh",
+    "scroll-step": 1,
+    "smooth-scrolling-threshold": 5
+  },
+
+
+  "clock": {
+    "timezone": "Europe/Bucharest",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format": "{:%H:%M - %a, %d %b %Y}"
+  },
+
+  "custom/weather": {
+    "format": "{}°",
+    "tooltip": true,
+    "interval": 1200,
+    "exec": "wttrbar --location 'Macin'",
+    "return-type": "json"
+  },
+
+
+  "tray": {
+    "spacing": 5
+  },
+
+  "battery": {
+    "format": "{capacity}%",
+    "format-charging": "{capacity}% ",
+    "interval": 5,
+    "weighted-average": true,
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "tooltip": true,
+    "tooltip-format": "{time}"
+  },
+
+  "group/hardware": {
+      "orientation": "horizontal",
+      "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": false
+      },
+      "modules": [
+        "temperature",
+        "cpu",
+        "custom/fan_speed"
+      ]
+  },
+
+  "temperature": {
+    "format": "{temperatureC}°C",
+    "interval": 1,
+    "tooltip": false
+  },
+
+  "cpu": {
+    "format":  "| {max_frequency}GHz",
+    "interval": "1",
+    "tooltip": false
+  },
+
+  "custom/fan_speed": {
+    "exec": "$HOME/.config/scripts/fan_speed.sh",
+    "interval": 1,
+    "format": "{} RPM | ",
+    "tooltip": false
+  },
+    
+  "pulseaudio": {
+    "scroll-step": 5,
+    "max-volume": 150,
+    "format": "VOL {volume:3}%",
+    "format-bluetooth": "BT {volume:3}%",
+    "nospacing": 1,
+    "format-muted": "MUT",
+    "on-click": "pavucontrol"
+  },
+    
+  "bluetooth": {
+    "format": "",
+    "format-disabled": "!",
+    "on-click": "blueberry",
+    "tooltip-format": "{status}"
+  }
+}

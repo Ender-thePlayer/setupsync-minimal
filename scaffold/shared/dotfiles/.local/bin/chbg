@@ -1,0 +1,119 @@
+#!/usr/bin/env bash
+
+# Set strict error handling
+set -euo pipefail
+
+# Configuration
+CONFIG_DIR="$HOME/.config/swww"
+WALLPAPER_DIR="$HOME/.config/walls/active"
+WALLPAPER_NAME="current_wallpaper"
+HYPRLOCK_CONF="$HOME/.config/hypr/hyprlock.conf"
+
+error() {
+    echo "[ERROR] $1" >&2
+    exit 1
+}
+
+success() {
+    echo "[SUCCESS] $1"
+}
+
+ensure_config_dir() {
+    if [[ ! -d "$WALLPAPER_DIR" ]]; then
+        mkdir -p "$WALLPAPER_DIR" || error "Failed to create wallpaper directory"
+    else
+        if ! [ -z "$( ls -A "$WALLPAPER_DIR" )" ]; then
+            rm -r $WALLPAPER_DIR/*
+        fi
+    fi
+}
+
+validate_image() {
+    local file="$1"
+    
+    [[ -f "$file" ]] || error "File not found: $file"
+    
+    local type
+    type=$(file --mime-type -b "$file") || error "Failed to determine file type"
+    
+    case "$type" in
+        image/jpeg) echo "jpg" ;;
+        image/png) echo "png" ;;
+        image/webp) echo "webp" ;;
+        image/gif) echo "gif" ;;
+        *) error "'$file' is not a JPEG, PNG, WebP, or GIF file" ;;
+    esac
+}
+
+cleanup_old_wallpapers() {
+    find "$WALLPAPER_DIR" -type f ! -name "${WALLPAPER_NAME}_frame.png" ! -name "${WALLPAPER_NAME}.gif" -delete 2>/dev/null || true
+}
+
+extract_gif_frame() {
+    local source="$1"
+    local destination="$2"
+    ffmpeg -i "$source" -vf "select=eq(n\,0)" -vframes 1 "$destination" -y &>/dev/null || \
+        error "Failed to extract frame from GIF"
+    
+    [[ -f "$destination" ]] || error "Extracted frame not found at $destination"
+}
+
+copy_to_config() {
+    local source="$1"
+    local extension="$2"
+    local destination="$WALLPAPER_DIR/${WALLPAPER_NAME}.${extension}"
+    
+    cp "$source" "$destination" || error "Failed to copy wallpaper to config directory"
+    echo "$destination"
+}
+
+update_hyprlock() {
+    local wallpaper="$1"
+    
+    if [[ -f "$HYPRLOCK_CONF" ]]; then
+        if [[ -f "$wallpaper" ]]; then
+            sed -i "s|^\(\s*path\s*=\s*\).*$|\1$wallpaper|" "$HYPRLOCK_CONF" || \
+                error "Failed to update hyprlock config"
+            echo "[INFO] Hyprlock path set to $wallpaper"
+        else
+            error "Wallpaper file for hyprlock does not exist: $wallpaper"
+        fi
+    fi
+}
+
+set_swww_wallpaper() {
+    local wallpaper="$1"
+    
+    [[ -f "$wallpaper" ]] || error "Wallpaper file for swww does not exist: $wallpaper"
+    echo "[INFO] Setting wallpaper with swww: $wallpaper"
+    swww img "$wallpaper" --filter Nearest || error "Failed to set wallpaper using swww"
+}
+
+main() {
+    [[ $# -eq 1 ]] || error "Usage: $0 <image-file>"
+    
+    local input_file="$1"
+    
+    local extension
+    extension=$(validate_image "$input_file")
+    
+    ensure_config_dir
+    cleanup_old_wallpapers
+    
+    local config_file
+    if [[ "$extension" == "gif" ]]; then
+        local frame_file="$WALLPAPER_DIR/${WALLPAPER_NAME}_frame.png"
+        extract_gif_frame "$input_file" "$frame_file"
+        update_hyprlock "$frame_file"
+        config_file="$WALLPAPER_DIR/${WALLPAPER_NAME}.gif"
+        cp "$input_file" "$config_file" || error "Failed to copy GIF to config directory"
+    else
+        config_file=$(copy_to_config "$input_file" "$extension")
+        update_hyprlock "$config_file"
+    fi
+    
+    set_swww_wallpaper "$config_file"
+    success "Changed background to $config_file"
+}
+
+main "$@"

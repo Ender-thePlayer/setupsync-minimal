@@ -1,0 +1,234 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+import json
+import signal
+import spotipy
+import requests
+import argparse
+import subprocess
+
+from functools import partial
+from mutagen.easyid3 import EasyID3
+from mutagen.id3 import ID3, APIC, error
+from spotipy.oauth2 import SpotifyClientCredentials
+
+### Catches SIGINT signal, closes the app and sends a message
+def signal_handler(sig, frame):
+    print("\nCaught interrupt (did you press Ctrl+C?)")
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
+
+
+### START OF THE APP
+def main():
+    try:
+        config_file = os.path.join(os.environ.get('HOME'), '.config/romode/config.json')
+        if not os.path.exists(config_file):
+            print("LOG: No config file found! Creating a new file at location: `" + config_file + "`\n")
+            pathlib.Path(config_file.rsplit('/', 1)[0]).mkdir(parents=True, exist_ok=True)
+            with open(config_file, 'w') as file:
+                pass
+    
+    except Exception as e:
+        print("[ERR] Unable to create config file: ", e)
+        return
+
+
+    parser = argparse.ArgumentParser(prog='romode3-cli')
+
+    subparsers = parser.add_subparsers(dest='command')
+    parser_set = subparsers.add_parser('set', help='Set configuration')
+    parser_set.add_argument('-i', '--client-id', help='Set the Spotify client ID')
+    parser_set.add_argument('-s', '--client-secret', help='Set the Spotify client Secret')
+    parser_set.add_argument('-d', '--default-output-folder', help='Set the default output folder')
+
+    parser_download = subparsers.add_parser('download', help='Download content')
+    parser_download.add_argument('-Y', '--youtube-link', required=True, help='YouTube link')
+    parser_download.add_argument('-S', '--spotify-link', help='Spotify link')
+    parser_download.add_argument('-o', '--output-folder', help='Where to output the file; If set, it temporarly overrides the default output folder that is set')
+
+    args = parser.parse_args()
+
+    if args.command == 'set':
+        handle_set(args.client_id, args.client_secret, args.default_output_folder, config_file)
+    elif args.command == 'download':
+        handle_download(args.youtube_link, args.spotify_link, args.output_folder, config_file)
+    else:
+        parser.print_help()
+
+
+def handle_set(client_id, client_secret, default_output_folder, config_file):
+    try:
+        with open(config_file, 'r') as f:
+            cfg_data = json.load(f)
+    except:
+        cfg_data = {}
+
+    if client_id:
+        cfg_data['spotify_client_id'] = client_id
+
+    if client_secret:
+        cfg_data['spotify_client_secret'] = client_secret
+
+    if default_output_folder:
+        cfg_data['folder_path'] = default_output_folder
+
+    with open(config_file, 'w') as f:
+        json.dump(cfg_data, f, indent=4)
+
+
+
+def handle_download(youtube_link, spotify_link, output_folder, config_file):
+    if not youtube_link:
+        print("ERR: No youtube link entered!")
+        return
+
+    with open(config_file, 'r') as f:
+        try:
+            cfg = json.load(f)
+            client_id = cfg.get('spotify_client_id', "")
+        except:
+            client_id = ""
+
+    with open(config_file, 'r') as f:
+        try:
+            cfg = json.load(f)
+            client_secret = cfg.get('spotify_client_secret', "")
+        except:
+            client_secret = ""
+
+
+    if not client_id == "" and not client_secret == "" and spotify_link:
+        try:
+            print('INFO: Fetching song metadata...\n\n')
+
+            client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
+            sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+
+            items = sp.track(track_id=spotify_link)
+            track_name = items.get("name")
+            album_info = items.get("album")
+            track_artist = ", ".join([artist["name"] for artist in items["artists"]])
+
+            if album_info:
+                track_album = album_info.get("name")
+                track_year = (
+                    album_info.get("release_date")[:4]
+                    if album_info.get("release_date")
+                    else ""
+                )
+                album_total = album_info.get("total_tracks")
+            
+            track_num = items["track_number"]
+            spotify_id = items["id"]
+
+            try:
+                track_audio_data = sp.audio_analysis(spotify_id)
+                tempo = track_audio_data.get("track").get("tempo")
+
+            except:
+                tempo = None
+
+            if len(items["album"]["images"]) > 0:
+                cover = items["album"]["images"][0]["url"]
+            else:
+                cover = None
+            if len(sp.artist(artist_id=items["artists"][0]["uri"])["genres"]) > 0:
+                genre = sp.artist(artist_id=items["artists"][0]["uri"])["genres"][0]
+            else:
+                genre = ""
+        except Exception as e:
+            parent_window.textbuffer.insert_at_cursor("WARN: Couldn't fetch the data.\n")
+
+
+    with open(config_file, 'r') as f:
+        try:
+            cfg = json.load(f)
+            folder_path = cfg.get('folder_path', "")
+        except:
+            folder_path = ""
+
+    if folder_path == "":
+        print('WARN: No download path set! Defaulting to Ciordales folder\n')
+        try:
+            os.makedirs(os.path.join(os.environ.get('HOME'), 'Ciordales'), exist_ok=True)
+        except Exception as e:
+            print("WARN: Something else went wrong! Defaulting to relative folder\n") 
+
+        folder_path = os.path.join(os.environ.get('HOME'), 'Ciordales')
+
+        if folder_path == "":
+            folder_path = os.environ.get('HOME')
+
+
+    if not client_id == "" and not client_secret == "" and spotify_link:
+        command = f"yt-dlp -o '{folder_path}/{spotify_id}.%(ext)s' {youtube_link}/ -x --audio-format mp3"
+    else:
+        command = f"yt-dlp -o '{folder_path}/%(title)s.%(ext)s' {youtube_link}/ -x --audio-format mp3"
+
+    process = subprocess.Popen(
+        command,
+        shell=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        universal_newlines=True,
+        bufsize=1,
+    )
+
+    while True:
+        output = process.stdout.readline()
+        if output == '' and process.poll() is not None:
+            break
+        if output:
+            print(output.strip())
+
+    return_code = process.returncode
+
+    if return_code == 0 and not client_id == "" and not client_secret == "" and spotify_link:
+        mp3_file = f"{folder_path}/{spotify_id}.mp3"
+
+        try:
+            audio = EasyID3(mp3_file)
+        except error:
+            audio = mutagen.File(mp3_file, easy=True)
+            audio.add_tags()
+
+        audio['title'] = track_name
+        audio['artist'] = track_artist
+        audio['album'] = track_album
+        audio['date'] = track_year
+        audio['tracknumber'] = f"{str(track_num)}/ {str(album_total)}"
+        if genre:
+            audio['genre'] = genre
+        audio.save()
+
+        if cover:
+            response = requests.get(cover)
+            with open("cover.jpg", "wb") as cover_file:
+                cover_file.write(response.content)
+
+            audio = ID3(mp3_file)
+            with open("cover.jpg", 'rb') as albumart:
+                audio['APIC'] = APIC(
+                    encoding=3,
+                    mime='image/jpeg',
+                    type=3,
+                    desc=u'Cover',
+                    data=albumart.read()
+                )
+            audio.save()
+            os.remove("cover.jpg")
+
+        os.rename(mp3_file, f"{folder_path}/{track_name}.mp3")
+
+    if return_code == 0:
+        print("\nDONE: File downloaded successfully!\n")
+    else:
+        print("\nERR: Couldn't download the file...")
+        print(f"Exit code: {return_code}\n")
+
+if __name__ == '__main__':
+    main()

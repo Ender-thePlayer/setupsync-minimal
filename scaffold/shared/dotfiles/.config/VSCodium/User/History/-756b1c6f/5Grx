@@ -1,0 +1,6 @@
+postinstall.txt
+scaffold/shared/kvms
+scaffold/shared/customapps
+scaffold/shared/librewolf
+changesync.sh
+.gitignore

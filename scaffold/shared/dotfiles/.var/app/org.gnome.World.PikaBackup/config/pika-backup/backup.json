@@ -1,0 +1,212 @@
+[
+  {
+    "config_version": 2,
+    "id": "1caa199c-43fc-4b6d-a30d-d618adbc9496",
+    "archive_prefix": "d581a9-",
+    "repo_id": "e2a420daea0003b9107d371704141105a24f95ce87f9051cbf03f3c9afe1b82f",
+    "repo": {
+      "type": "Local",
+      "path": "Desktop",
+      "mount_path": "/run/media/ender/EU-1",
+      "uri": "file:///run/media/ender/EU-1/Desktop",
+      "drive_name": "SSDPR-CX400-512",
+      "mount_name": "EU-1",
+      "volume_uuid": "dcaa3faf-8efa-4611-9b29-7d515f0bc546",
+      "volume_uuid_identifier": "74e678f5-19d0-437e-8bfb-98cd873965ac",
+      "removable": true,
+      "icon": ". GEmblemedIcon .%20GThemedIcon%20drive-harddisk-usb%20drive-harddisk%20drive%20drive-harddisk-usb-symbolic%20drive-harddisk-symbolic%20drive-symbolic .%20GEmblem%20changes-allow%201",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-usb-symbolic drive-harddisk-symbolic drive-symbolic drive-harddisk-usb drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey-blake2",
+    "include": [
+      ".config/romode",
+      ".local/share/auth",
+      ".local/share/wineprefixes",
+      ".minecraft",
+      ".var/app/net.lutris.Lutris/config",
+      ".var/app/net.lutris.Lutris/data",
+      ".var/app/net.pcsx2.PCSX2",
+      "Documents",
+      "Music",
+      "Pictures",
+      "Videos/Projects",
+      "Videos/Random"
+    ],
+    "exclude": [
+      {
+        "PathPrefix": "Documents/Card"
+      }
+    ],
+    "schedule": {
+      "enabled": false,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": true,
+      "keep": {
+        "hourly": 24,
+        "daily": 7,
+        "weekly": 2,
+        "monthly": 6,
+        "yearly": 0
+      }
+    },
+    "title": "EU-1",
+    "user_scripts": {
+      "PreBackup": "~/.local/share/backup/prebackup.sh",
+      "PostBackup": "~/.local/share/backup/postbackup.sh"
+    }
+  },
+  {
+    "config_version": 2,
+    "id": "ebe1f4de-a393-44e5-ae28-09f315bd6980",
+    "archive_prefix": "a24f56-",
+    "repo_id": "e1ec4a4ffcca6007d5c3059e859cddf8a1b535d70fb2e92cc50849a71a07ffe2",
+    "repo": {
+      "type": "Local",
+      "path": "Desktop",
+      "mount_path": "/run/media/ender/EU-2",
+      "uri": "file:///run/media/ender/EU-2/Desktop",
+      "drive_name": "TOSHIBA MQ01ABF050",
+      "mount_name": "EU-2",
+      "volume_uuid": "f9d6335b-9309-4c5e-a066-f72d680911df",
+      "volume_uuid_identifier": "3e456608-687b-4874-8fec-6a3e5b9faf9a",
+      "removable": true,
+      "icon": ". GEmblemedIcon .%20GThemedIcon%20drive-harddisk-usb%20drive-harddisk%20drive%20drive-harddisk-usb-symbolic%20drive-harddisk-symbolic%20drive-symbolic .%20GEmblem%20changes-allow%201",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-usb-symbolic drive-harddisk-symbolic drive-symbolic drive-harddisk-usb drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey-blake2",
+    "include": [
+      ".config/romode",
+      ".local/share/auth",
+      ".local/share/wineprefixes",
+      ".minecraft",
+      ".var/app/net.lutris.Lutris/config",
+      ".var/app/net.lutris.Lutris/data",
+      ".var/app/net.pcsx2.PCSX2",
+      "Documents",
+      "Music",
+      "Pictures",
+      "Videos/Projects",
+      "Videos/Random"
+    ],
+    "exclude": [
+      {
+        "PathPrefix": "Documents/Card"
+      }
+    ],
+    "schedule": {
+      "enabled": false,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "EU-2",
+    "user_scripts": {
+      "PreBackup": "~/.local/share/backup/prebackup.sh",
+      "PostBackup": "~/.local/share/backup/postbackup.sh"
+    }
+  },
+  {
+    "config_version": 2,
+    "id": "473ecab2-21aa-47d7-8018-40efa237eed1",
+    "archive_prefix": "2b947a-",
+    "repo_id": "7e49c50aaf46c4ae9f8b19c7b166cc14d180aa6b35012aa623b0fcc8c0458218",
+    "repo": {
+      "type": "Local",
+      "path": "/home/eepyender/Documents/Card",
+      "mount_path": "/",
+      "uri": null,
+      "drive_name": null,
+      "mount_name": "home",
+      "volume_uuid": null,
+      "volume_uuid_identifier": null,
+      "removable": false,
+      "icon": ". GThemedIcon drive-harddisk drive drive-harddisk-symbolic drive-symbolic",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-symbolic drive-symbolic drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey-blake2",
+    "include": [
+      "/run/media/eepyender/EF95-0C0B"
+    ],
+    "exclude": [
+      {
+        "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+      },
+      {
+        "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+      },
+      {
+        "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+      },
+      {
+        "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+      },
+      {
+        "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+      },
+      {
+        "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+      }
+    ],
+    "schedule": {
+      "enabled": false,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "Card",
+    "user_scripts": {
+      "PostBackup": "~/.local/share/backup/card-postbackup.sh"
+    }
+  }
+]

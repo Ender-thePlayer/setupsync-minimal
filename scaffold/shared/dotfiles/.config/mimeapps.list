@@ -1,0 +1,34 @@
+[Default Applications]
+application/x-shellscript=org.gnome.TextEditor.desktop
+text/plain=org.gnome.TextEditor.desktop
+inode/directory=org.gnome.Nautilus.desktop
+text/html=librewolf.desktop
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+x-scheme-handler/about=librewolf.desktop
+x-scheme-handler/unknown=librewolf.desktop
+audio/mpeg=vlc.desktop
+image/=org.gnome.Loupe.desktop
+image/bmp=org.gnome.Loupe.desktop
+image/png=org.gnome.Loupe.desktop
+image/jpg=org.gnome.Loupe.desktop
+image/jpeg=org.gnome.Loupe.desktop
+image/webp=org.gnome.Loupe.desktop
+application/x-gnome-saved-search=org.gnome.Nautilus.desktop
+audio/x-vorbis+ogg=vlc.desktop
+text/x-csharp=org.gnome.TextEditor.desktop
+application/json=org.gnome.TextEditor.desktop
+audio/flac=vlc.desktop
+audio/mp4=vlc.desktop
+audio/vnd.wave=vlc.desktop
+
+[Added Associations]
+application/x-shellscript=org.gnome.TextEditor.desktop;
+audio/mpeg=vlc.desktop;
+text/html=librewolf.desktop;
+audio/x-vorbis+ogg=vlc.desktop;
+text/x-csharp=org.gnome.TextEditor.desktop;
+application/json=org.gnome.TextEditor.desktop;
+audio/flac=vlc.desktop;
+audio/mp4=vlc.desktop;
+audio/vnd.wave=vlc.desktop;

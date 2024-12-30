@@ -1,6 +1,20 @@
 #!/usr/bin/env bash
 
-### PIP INSTALL SOME APPS
-pip3 install python-dotenv --break-system-packages
-pip3 install spotify_dl --break-system-packages
-pip3 install yt-dlp --break-system-packages
+pip=(
+"python-dotenv"
+"pygobject"
+"spotify_dl"
+"pycryptodome"
+)
+
+
+### PIP
+current=$( pwd )
+cd "$HOME" || return
+uv venv
+# shellcheck disable=SC1090
+source "$HOME".venv/bin/activate
+for pkg in "${pip[@]}"; do
+    uv pip install "$pkg"
+done
+cd "$current" || return

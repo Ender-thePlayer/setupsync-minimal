@@ -1,0 +1,5082 @@
+{
+  "04dec251-844f-436e-9c3c-684ebe89320d": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-08-13T12:45:06.007190885+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 391.087176,
+                "id": "595e798a8a15f61b8b0801e81648d07db6dcd664ab32978a2cf005be454bcf02",
+                "name": "62cb05-77c13a05",
+                "stats": {
+                  "compressed_size": 65414948751,
+                  "deduplicated_size": 374984970,
+                  "nfiles": 63491,
+                  "original_size": 74675441095
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-02T18:27:50.250723769+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 383.886728,
+                "id": "d9968899a272a95822248c31165e4b9db376e9f453baeb42a4d7e1fd775e3dda",
+                "name": "62cb05-46d8e6c0",
+                "stats": {
+                  "compressed_size": 65208754344,
+                  "deduplicated_size": 2742619571,
+                  "nfiles": 63426,
+                  "original_size": 74215895075
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-02T18:13:17.974241327+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-31T12:09:22.749041613+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 20.031799,
+                "id": "1545e6498e0863c3a32e670eec34e16564d7de09c895cb9f297bb9f53464027e",
+                "name": "62cb05-d1393e2c",
+                "stats": {
+                  "compressed_size": 64055970993,
+                  "deduplicated_size": 306749275,
+                  "nfiles": 66329,
+                  "original_size": 74868076748
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-23T22:37:20.109411895+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 466.561393,
+                "id": "45095d60ff0cf8e54a200a14cc1b112e95b24cb1c355e3a0ee4400898e748bfe",
+                "name": "62cb05-cd5708b5",
+                "stats": {
+                  "compressed_size": 63919518699,
+                  "deduplicated_size": 99909346,
+                  "nfiles": 65567,
+                  "original_size": 74618264623
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-26T15:53:07.175651995+03:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-04-19T22:47:43.716942974+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 333.567062,
+                "id": "0c2e8ba770778e906a3e6aed780d5b77c59171046c66bae124c6c42b4d1e3347",
+                "name": "62cb05-58fb8e9c",
+                "stats": {
+                  "compressed_size": 32956476558,
+                  "deduplicated_size": 2162880347,
+                  "nfiles": 59718,
+                  "original_size": 43418522113
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-19T22:42:04.351675606+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-07T12:33:33.045078144+03:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "UserCanceled"
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-05T11:40:35.822971334+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 5.618272,
+                "id": "97de57d90c9fc67305228153377745f805580fa0d6945f0f081bd53260dc6084",
+                "name": "62cb05-b7ea25e8",
+                "stats": {
+                  "compressed_size": 16954475212,
+                  "deduplicated_size": 83375,
+                  "nfiles": 35694,
+                  "original_size": 22571607415
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/A.Hat.in.Time"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/Omori"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/OneShot"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/SEX.with.HITLER.2"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-05T11:33:53.168094224+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 5.759768,
+                "id": "7b452fdac9971f66e8f8dc31fc7ccae2a965484b3ebebe804f891381393c0421",
+                "name": "62cb05-d9987b7f",
+                "stats": {
+                  "compressed_size": 16954395878,
+                  "deduplicated_size": 4041,
+                  "nfiles": 35692,
+                  "original_size": 22571520667
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/A.Hat.in.Time"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/Omori"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/OneShot"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/SEX.with.HITLER.2"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-05T11:33:41.644822512+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 13.520614,
+                "id": "a31bbf8447c4090613a50440b5f9b5f1b5f0b0b0bbd92fcb3be26b75ca0d6205",
+                "name": "62cb05-5818e22b",
+                "stats": {
+                  "compressed_size": 16954395878,
+                  "deduplicated_size": 166875555,
+                  "nfiles": 35692,
+                  "original_size": 22571520667
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/A.Hat.in.Time"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/Omori"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/OneShot"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/SEX.with.HITLER.2"
+          }
+        ]
+      },
+      {
+        "end": "2024-03-31T00:01:37.262155181+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 23.33656,
+                "id": "5b61f42db6a8484a3ecd1e1707d83521690f09b7bcef1cf11add59d6c3e8d687",
+                "name": "62cb05-07b5aec2",
+                "stats": {
+                  "compressed_size": 16952621055,
+                  "deduplicated_size": 526880793,
+                  "nfiles": 35312,
+                  "original_size": 22472702340
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/A.Hat.in.Time"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/Omori"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/OneShot"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/SEX.with.HITLER.2"
+          }
+        ]
+      },
+      {
+        "end": "2024-03-30T23:58:10.521728959+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 5.920977,
+                "id": "2ad30cb3ba9a371d42cbe2dca83975176c4364afea651e9a3d003826649a316a",
+                "name": "62cb05-039d3728",
+                "stats": {
+                  "compressed_size": 15862823969,
+                  "deduplicated_size": 3882,
+                  "nfiles": 35268,
+                  "original_size": 21150310460
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games"
+          }
+        ]
+      },
+      {
+        "end": "2024-03-30T23:45:59.005004355+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 481.033329,
+                "id": "016b9c628f773331dbd200df707204f541a539096e38f941ab3360aadf12ed66",
+                "name": "62cb05-fd7c448a",
+                "stats": {
+                  "compressed_size": 15862823961,
+                  "deduplicated_size": 13067258813,
+                  "nfiles": 35268,
+                  "original_size": 21150310420
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".minecraft",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games"
+          }
+        ]
+      },
+      {
+        "end": "2024-03-30T22:57:58.800684087+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.146645,
+                "id": "a5d06e52cd1c50ceeed0262989a02e4820dc144f32258d21040f8e572a6319ce",
+                "name": "62cb05-ad4fd88c",
+                "stats": {
+                  "compressed_size": 853578876,
+                  "deduplicated_size": 751,
+                  "nfiles": 133,
+                  "original_size": 859142642
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-30T22:57:46.481598521+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 35.12851,
+                "id": "218a8bb319b472ad6da5ceeebaa7a0490c9af5ad1000664313f1be6c8d601c34",
+                "name": "62cb05-680e0d11",
+                "stats": {
+                  "compressed_size": 853578877,
+                  "deduplicated_size": 853578877,
+                  "nfiles": 133,
+                  "original_size": 859142642
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-30T22:38:41.024610014+02:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 23\n\nrsync: [sender] change_dir \"/home/ender/~/Documents/Card\" failed: No such file or directory (2)\nrsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1336) [sender=3.2.7]"
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-30T22:37:58.266546770+02:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 23\n\nrsync: [sender] change_dir \"/Documents/Card\" failed: No such file or directory (2)\nrsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1336) [sender=3.2.7]"
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-30T22:37:29.383503953+02:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 126\n\nbash: line 1: /home/ender/Documents/prebackup.sh: Permission denied"
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-08-13T12:45:06.007190885+03:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 391.087176,
+              "id": "595e798a8a15f61b8b0801e81648d07db6dcd664ab32978a2cf005be454bcf02",
+              "name": "62cb05-77c13a05",
+              "stats": {
+                "compressed_size": 65414948751,
+                "deduplicated_size": 374984970,
+                "nfiles": 63491,
+                "original_size": 74675441095
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        ".local/share/wineprefixes",
+        ".minecraft",
+        ".var/app/net.lutris.Lutris/config",
+        ".var/app/net.lutris.Lutris/data",
+        "Documents",
+        "Documents/Games/Minecraft",
+        "Music",
+        "Pictures",
+        "Videos/Projects",
+        "Videos/Random"
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/home/ender/Documents/Card"
+        }
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "1bdb7412-84eb-4b14-ae04-1a3af88c7f48": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-11-09T16:54:04.228051526+02:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository /home/ender/Documents/Card does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-09T16:49:12.364886248+02:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository /home/ender/Documents/Card does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-28T15:53:38.959737946+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1301.881017,
+                "id": "ce8035cabde65c00e170f0fc813604a646a53211e76386ed08cb74854293e843",
+                "name": "79b381-c1ef2962",
+                "stats": {
+                  "compressed_size": 55665903421,
+                  "deduplicated_size": 5727199361,
+                  "nfiles": 9231,
+                  "original_size": 56601347151
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-15T03:38:48.150354562+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1445.247832,
+                "id": "b8220c987599aa7bd5b5da773ccd6897b5228819fddb7a1b5661e4d924b70773",
+                "name": "79b381-e0a0ddf3",
+                "stats": {
+                  "compressed_size": 49134377841,
+                  "deduplicated_size": 46486233107,
+                  "nfiles": 8844,
+                  "original_size": 50042304039
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-09-28T15:53:38.959737946+03:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 1301.881017,
+              "id": "ce8035cabde65c00e170f0fc813604a646a53211e76386ed08cb74854293e843",
+              "name": "79b381-c1ef2962",
+              "stats": {
+                "compressed_size": 55665903421,
+                "deduplicated_size": 5727199361,
+                "nfiles": 9231,
+                "original_size": 56601347151
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        "/run/media/ender/EF95-0C0B"
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+        }
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "1caa199c-43fc-4b6d-a30d-d618adbc9496": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-11-30T15:40:58.042819166+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 14.898328,
+                "id": "5a5d70a38d73a315c40374110634c920b230b9ef944ae2aff98624b859a8eb85",
+                "name": "d581a9-3d57e201",
+                "stats": {
+                  "compressed_size": 89453778226,
+                  "deduplicated_size": 7891,
+                  "nfiles": 83898,
+                  "original_size": 102809797127
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-30T15:40:34.058251074+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 18.360385,
+                "id": "8ec842f5db5075f1d171f580f6a1aa84893162d0e277d84e63c254edd04848aa",
+                "name": "d581a9-f51f2095",
+                "stats": {
+                  "compressed_size": 89453778226,
+                  "deduplicated_size": 121073954,
+                  "nfiles": 83898,
+                  "original_size": 102809797127
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-23T02:38:37.134092439+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 18.108009,
+                "id": "b3710306b9b3cc4bb1e25f3353886bbeb76fa1d96854d377a6b2488340e2c373",
+                "name": "d581a9-5b613f8b",
+                "stats": {
+                  "compressed_size": 89470078834,
+                  "deduplicated_size": 23150,
+                  "nfiles": 83939,
+                  "original_size": 102839414781
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-23T02:38:07.445833005+02:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "UserCanceled"
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-23T02:29:56.933635869+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 16.33751,
+                "id": "27a3acb5fbc24230882a39d9204cf802c0004da330a5cafbeb643236c5df53ec",
+                "name": "d581a9-8a09ab34",
+                "stats": {
+                  "compressed_size": 89470057056,
+                  "deduplicated_size": 48745713,
+                  "nfiles": 83929,
+                  "original_size": 102839359357
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-16T02:03:21.856459754+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 134.128058,
+                "id": "f5bdcfb86d12eb9b92b8be2ad9278c13547dac3a8f6de69f5c8766d9191bfcdb",
+                "name": "d581a9-c53f3e60",
+                "stats": {
+                  "compressed_size": 89428782627,
+                  "deduplicated_size": 5028725802,
+                  "nfiles": 83815,
+                  "original_size": 102796487300
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-10T01:10:01.742720018+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 19.125942,
+                "id": "0941a749a260527cb893bf9c61bc2bfc26bf33478ee0d43b8929d28e940b7ef2",
+                "name": "d581a9-aaac4b4e",
+                "stats": {
+                  "compressed_size": 85450326370,
+                  "deduplicated_size": 118389535,
+                  "nfiles": 82711,
+                  "original_size": 97153485451
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-10T00:54:11.453730401+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 386.64845,
+                "id": "373773736f01fdbdeec670cc08a0697bcb43793ae6efe22903521bd56105922b",
+                "name": "d581a9-f983b64f",
+                "stats": {
+                  "compressed_size": 85350995558,
+                  "deduplicated_size": 1288094894,
+                  "nfiles": 82643,
+                  "original_size": 97040179715
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-28T16:14:36.624035471+03:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "UserCanceled"
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-28T16:11:59.075668474+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 204.18059,
+                "id": "1a19f216cdfdcd48a69dcfaf372dbd2993b938c67152e518080b1f05cc7a11fd",
+                "name": "d581a9-a0080643",
+                "stats": {
+                  "compressed_size": 90125777765,
+                  "deduplicated_size": 10755750323,
+                  "nfiles": 73135,
+                  "original_size": 101691912494
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-15T13:33:18.339930716+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 10.943322,
+                "id": "0cd75c119511745e79c5950edf3c54cd4a7a19fe4e4cb4262aeb44297e68ed4a",
+                "name": "d581a9-7a6b355e",
+                "stats": {
+                  "compressed_size": 78731303587,
+                  "deduplicated_size": 6239,
+                  "nfiles": 72073,
+                  "original_size": 88997398278
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-15T13:26:27.612816694+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 11.536463,
+                "id": "1bc638d98c45457a739ea1f47ffed0830b097287e53589f9e45f86771da15611",
+                "name": "d581a9-ad913c84",
+                "stats": {
+                  "compressed_size": 78836711321,
+                  "deduplicated_size": 1497604,
+                  "nfiles": 72946,
+                  "original_size": 89109651137
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-15T13:22:15.260584287+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 395.882813,
+                "id": "4104827f7eeb100549a04235326f521fef1e1a5c5b7bbc41d3f030c1257d320a",
+                "name": "d581a9-c5ad8ce1",
+                "stats": {
+                  "compressed_size": 78835219994,
+                  "deduplicated_size": 3683810219,
+                  "nfiles": 72943,
+                  "original_size": 89108092099
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-30T13:14:13.637061141+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 11.831774,
+                "id": "062209921940acab4ba0941ea53d1d9c58efbe82afbf6fefb207af192976f0e2",
+                "name": "d581a9-2fea90bf",
+                "stats": {
+                  "compressed_size": 75238901499,
+                  "deduplicated_size": 216513,
+                  "nfiles": 73214,
+                  "original_size": 85503717301
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-30T12:00:07.912361230+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 10.517764,
+                "id": "b2c7f0d8096dbfcd577f193ce4769f3c2748facd15a86024e9843a7cc394cfdb",
+                "name": "d581a9-26496d4b",
+                "stats": {
+                  "compressed_size": 75238901506,
+                  "deduplicated_size": 6367,
+                  "nfiles": 73214,
+                  "original_size": 85503717299
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-30T11:59:44.827963932+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 969.727939,
+                "id": "6d2372c3569dfa61503678f366852449fa10cd70f7f57b65fd55ac24447e0015",
+                "name": "d581a9-089459ee",
+                "stats": {
+                  "compressed_size": 75238901503,
+                  "deduplicated_size": 64645497716,
+                  "nfiles": 73214,
+                  "original_size": 85503717299
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-11-30T15:40:58.042819166+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 14.898328,
+              "id": "5a5d70a38d73a315c40374110634c920b230b9ef944ae2aff98624b859a8eb85",
+              "name": "d581a9-3d57e201",
+              "stats": {
+                "compressed_size": 89453778226,
+                "deduplicated_size": 7891,
+                "nfiles": 83898,
+                "original_size": 102809797127
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        ".local/share/auth",
+        ".local/share/wineprefixes",
+        ".minecraft",
+        ".var/app/net.lutris.Lutris/config",
+        ".var/app/net.lutris.Lutris/data",
+        ".var/app/net.pcsx2.PCSX2",
+        "Documents",
+        "Music",
+        "Pictures",
+        "Videos/Projects",
+        "Videos/Random"
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/home/eepyender/Documents/Card"
+        }
+      ]
+    },
+    "last_check": {
+      "end": "2024-11-30T16:05:02.595717106+02:00",
+      "outcome": "Success"
+    },
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "24131f86-5ba1-48c6-8b7d-fe84321266c1": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-03-30T00:22:00.116784932+02:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository /home/ender/Downloads/EU-X/Desktop/backup-fedora-ender does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-30T00:21:51.937740098+02:00",
+        "outcome": {
+          "Failed": {
+            "Other": "No files selected to be included into backup."
+          }
+        },
+        "messages": [],
+        "include": [],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-23T13:33:09+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.0,
+                "id": "18cf532ebc405e5d3bf4c1ed898256f37046b007f6411c0e84656aabf18bd8ff",
+                "name": "cafcff-3757cc11",
+                "stats": {
+                  "compressed_size": 0,
+                  "deduplicated_size": 0,
+                  "nfiles": 0,
+                  "original_size": 0
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EU-1/Vault/Temporary/Skema",
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-03-23T13:33:09+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 0.0,
+              "id": "18cf532ebc405e5d3bf4c1ed898256f37046b007f6411c0e84656aabf18bd8ff",
+              "name": "cafcff-3757cc11",
+              "stats": {
+                "compressed_size": 0,
+                "deduplicated_size": 0,
+                "nfiles": 0,
+                "original_size": 0
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        "/run/media/ender/EU-1/Vault/Temporary/Skema",
+        "Music/Pascal Beats"
+      ],
+      "exclude": [
+        "Caches"
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "2fdb2949-608b-4d5a-87e4-934b396864f2": {
+    "config_version": 2,
+    "run": [],
+    "running": null,
+    "last_completed": null,
+    "last_check": null,
+    "suggested_exclude": {}
+  },
+  "3c8ffa2f-882e-4561-aed6-b261c25a141b": {
+    "config_version": 2,
+    "run": [],
+    "running": null,
+    "last_completed": null,
+    "last_check": null,
+    "suggested_exclude": {}
+  },
+  "473ecab2-21aa-47d7-8018-40efa237eed1": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-11-30T02:42:19.693783526+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1106.558175,
+                "id": "5b5e80f8aac7c941423694e6e14d741f3fd4aa2b0647eff05e5b5aef6bb448d8",
+                "name": "2b947a-48f6a040",
+                "stats": {
+                  "compressed_size": 38932013154,
+                  "deduplicated_size": 363598951,
+                  "nfiles": 7670,
+                  "original_size": 39826230499
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-23T01:28:40.684711297+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1259.625168,
+                "id": "d2155be5698fe55bf729aff02103e721f95557ac07693f090a45bea1be1ab26a",
+                "name": "2b947a-92b7bfb0",
+                "stats": {
+                  "compressed_size": 48824557351,
+                  "deduplicated_size": 204999780,
+                  "nfiles": 9158,
+                  "original_size": 49742812042
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-16T01:48:19.246093070+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1247.258315,
+                "id": "d75276fb27d64d2a2c76286464ae0bab6a0bad9afcd31d084dfed6f528c48bc8",
+                "name": "2b947a-e073539e",
+                "stats": {
+                  "compressed_size": 48643924847,
+                  "deduplicated_size": 246768413,
+                  "nfiles": 9099,
+                  "original_size": 49561714821
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-09T17:18:13.303308982+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1208.370427,
+                "id": "c6f4eba251468a6f5c3bad91159b34c976e276d46d98e43f5f86087f73233bd2",
+                "name": "2b947a-89c40c0f",
+                "stats": {
+                  "compressed_size": 48448364710,
+                  "deduplicated_size": 271397423,
+                  "nfiles": 9052,
+                  "original_size": 49365913215
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-11-30T02:42:19.693783526+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 1106.558175,
+              "id": "5b5e80f8aac7c941423694e6e14d741f3fd4aa2b0647eff05e5b5aef6bb448d8",
+              "name": "2b947a-48f6a040",
+              "stats": {
+                "compressed_size": 38932013154,
+                "deduplicated_size": 363598951,
+                "nfiles": 7670,
+                "original_size": 39826230499
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        "/run/media/eepyender/EF95-0C0B"
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+        },
+        {
+          "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+        },
+        {
+          "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+        },
+        {
+          "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+        },
+        {
+          "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+        },
+        {
+          "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+        }
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "581b9ac8-c9d8-40f9-9fc0-ae0afac07cd5": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-03-23T13:57:26.798973796+02:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 127\n\nbash: line 1: /run/media/ender/EU-1/ma.sh: No such file or directory"
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-23T13:46:15.265958098+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.076039,
+                "id": "a4e0d73ff93a25d81951d327d26c48533d5f6d41ff0356cbce63d1a3150cea12",
+                "name": "cafcff-2f5f760e",
+                "stats": {
+                  "compressed_size": 853590628,
+                  "deduplicated_size": 801,
+                  "nfiles": 133,
+                  "original_size": 859142702
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-23T13:33:10.103849605+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.143839,
+                "id": "18cf532ebc405e5d3bf4c1ed898256f37046b007f6411c0e84656aabf18bd8ff",
+                "name": "cafcff-3757cc11",
+                "stats": {
+                  "compressed_size": 853590655,
+                  "deduplicated_size": 828,
+                  "nfiles": 133,
+                  "original_size": 859142750
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/run/media/ender/EU-1/Vault/Temporary/Skema: stat: [Errno 2] No such file or directory: '/run/media/ender/EU-1/Vault/Temporary/Skema'",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          "/run/media/ender/EU-1/Vault/Temporary/Skema",
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-23T13:32:48.874966163+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 19.367141,
+                "id": "a0ee9cb22781529820de5335bb8e38a198191924a305307d37503ad6d5f1762a",
+                "name": "cafcff-53ef46b0",
+                "stats": {
+                  "compressed_size": 853592068,
+                  "deduplicated_size": 853592068,
+                  "nfiles": 134,
+                  "original_size": 859148282
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EU-1/Vault/Temporary/Skema",
+          "Music/Pascal Beats"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-03-23T13:46:15.265958098+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 0.076039,
+              "id": "a4e0d73ff93a25d81951d327d26c48533d5f6d41ff0356cbce63d1a3150cea12",
+              "name": "cafcff-2f5f760e",
+              "stats": {
+                "compressed_size": 853590628,
+                "deduplicated_size": 801,
+                "nfiles": 133,
+                "original_size": 859142702
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        "Music/Pascal Beats"
+      ],
+      "exclude": [
+        "Caches"
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "6ce84194-0b3b-4124-b348-7ef149cb6292": {
+    "config_version": 2,
+    "run": [],
+    "running": null,
+    "last_completed": null,
+    "last_check": null,
+    "suggested_exclude": {}
+  },
+  "859b0168-a6bb-475a-94ea-6a73d7c4d26b": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-08-30T11:39:38.986100208+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-13T18:42:02.222344308+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 13.555282,
+                "id": "cfcfd25e19a8516dbec00f2b968d36ab50b0dd6ca120d1d1ceb1d8467719e9c7",
+                "name": "e86e1a-9e91a7f6",
+                "stats": {
+                  "compressed_size": 65093645913,
+                  "deduplicated_size": 5512,
+                  "nfiles": 63476,
+                  "original_size": 74014099069
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-13T18:40:21.326274566+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 14.312167,
+                "id": "f4be5a33e8c767d1f3672264396e754d4cc43749d2dd195526bcfe41b31fd310",
+                "name": "e86e1a-9edace35",
+                "stats": {
+                  "compressed_size": 65093645911,
+                  "deduplicated_size": 112488,
+                  "nfiles": 63476,
+                  "original_size": 74014099069
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-08-13T18:42:02.222344308+03:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 13.555282,
+              "id": "cfcfd25e19a8516dbec00f2b968d36ab50b0dd6ca120d1d1ceb1d8467719e9c7",
+              "name": "e86e1a-9e91a7f6",
+              "stats": {
+                "compressed_size": 65093645913,
+                "deduplicated_size": 5512,
+                "nfiles": 63476,
+                "original_size": 74014099069
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        ".local/share/wineprefixes",
+        ".minecraft",
+        ".var/app/net.lutris.Lutris/config",
+        ".var/app/net.lutris.Lutris/data",
+        "Documents",
+        "Music",
+        "Pictures",
+        "Videos/Projects",
+        "Videos/Random"
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/home/ender/Documents/Card"
+        }
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "9847c3b8-a7cf-4c1d-bfdc-600eaee4e50e": {
+    "config_version": 2,
+    "run": [],
+    "running": null,
+    "last_completed": null,
+    "last_check": null,
+    "suggested_exclude": {}
+  },
+  "b23ffcab-48e5-4fb7-b050-5ee083bc084d": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-09-15T03:08:53.200410917+03:00",
+        "outcome": {
+          "Failed": {
+            "Other": "Cache.RepositoryReplay: Cache, or information obtained from the security directory is newer than repository - this is either an attack or unsafe (multiple repos with same ID)"
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Cache, or information obtained from the security directory is newer than repository - this is either an attack or unsafe (multiple repos with same ID)",
+              "msgid": {
+                "Other": "Cache.RepositoryReplay"
+              }
+            }
+          }
+        ],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-15T03:08:38.088036938+03:00",
+        "outcome": {
+          "Failed": "Cache.RepositoryAccessAborted"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository access aborted",
+              "msgid": "Cache.RepositoryAccessAborted"
+            }
+          }
+        ],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-28T22:26:46.158122153+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 929.705956,
+                "id": "3ce52f8b1b83096db198090ed36027ec752739faeb2040c654602ab30e88e5a8",
+                "name": "353d53-0fa04661",
+                "stats": {
+                  "compressed_size": 49915044379,
+                  "deduplicated_size": 257104105,
+                  "nfiles": 8829,
+                  "original_size": 50831208997
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-28T22:11:04.858051555+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.062507,
+                "id": "b16d7db75cb5c2d3bf5030b651991381db3d2fd1de95279134807488064f3b47",
+                "name": "353d53-0fab0acb",
+                "stats": {
+                  "compressed_size": 729,
+                  "deduplicated_size": 729,
+                  "nfiles": 0,
+                  "original_size": 1022
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/run/media/ender/EF95-0C0B: stat: [Errno 2] No such file or directory: '/run/media/ender/EF95-0C0B'",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-25T00:27:13.244027773+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 817.030369,
+                "id": "47d9a52cba352fff35117d27c917167b30ae72e8ebafceaea5f7b1fe94bb0fc4",
+                "name": "353d53-84b0dbe6",
+                "stats": {
+                  "compressed_size": 47857202319,
+                  "deduplicated_size": 493263156,
+                  "nfiles": 8598,
+                  "original_size": 48766414394
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-13T12:25:24.745581070+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 848.617948,
+                "id": "4619c2e67120d4cb04804578f51be272a57c0e553e0c7a3a8c3dd8e7f064e5bd",
+                "name": "353d53-8819dd5b",
+                "stats": {
+                  "compressed_size": 47198277631,
+                  "deduplicated_size": 564691904,
+                  "nfiles": 8441,
+                  "original_size": 48106338920
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-02T15:56:39.737467791+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1071.526232,
+                "id": "59efcd1291c6b11f95f2871545a5e71de3c2d7a0ef0a7544743307e05fa53937",
+                "name": "353d53-3010c051",
+                "stats": {
+                  "compressed_size": 46799558819,
+                  "deduplicated_size": 259372589,
+                  "nfiles": 8301,
+                  "original_size": 47707057430
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-31T12:07:43.851527290+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 2.176883,
+                "id": "01d4c604c543dde7cbb3a81b8c8cabee58cf9cdc76cb338da51ecad019e96a49",
+                "name": "353d53-b86b6235",
+                "stats": {
+                  "compressed_size": 53446032392,
+                  "deduplicated_size": 1541,
+                  "nfiles": 9701,
+                  "original_size": 54445498500
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-31T12:06:16.479289125+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 2.156885,
+                "id": "05cc4f662518f2e15316cd6fad630585da4696a1a37fccaf4e13a4af3c0f6463",
+                "name": "353d53-2642e47e",
+                "stats": {
+                  "compressed_size": 53446032414,
+                  "deduplicated_size": 1563,
+                  "nfiles": 9701,
+                  "original_size": 54445498500
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-31T12:04:55.316848314+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1247.081327,
+                "id": "9a2611c7801b15318f895b0c69e878e16d07ea878337c46963a598a37da9d783",
+                "name": "353d53-7909b2c6",
+                "stats": {
+                  "compressed_size": 53446032396,
+                  "deduplicated_size": 635100268,
+                  "nfiles": 9701,
+                  "original_size": 54445498500
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /home/ender/Documents/Card/lock.exclusive (timeout).",
+              "msgid": "LockTimeout"
+            }
+          }
+        ],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-31T11:37:33.535733726+03:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-05-23T22:13:48.868533028+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 2.046494,
+                "id": "ee6dce13dac642ae1dab35ac3e24e4d78ba7b80d3201b43d46804c2e1e4f6d0f",
+                "name": "353d53-e7f57ded",
+                "stats": {
+                  "compressed_size": 52862982824,
+                  "deduplicated_size": 1542,
+                  "nfiles": 9538,
+                  "original_size": 53860973286
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-23T22:12:32.501986443+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1303.072291,
+                "id": "a63b15d642b0e7d0ea37836e851a49362c93e5f3307e343f4d2b629edbcfece4",
+                "name": "353d53-9fb5ca9b",
+                "stats": {
+                  "compressed_size": 52862982853,
+                  "deduplicated_size": 283488902,
+                  "nfiles": 9538,
+                  "original_size": 53860973286
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-23T21:50:18.246261020+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.466157,
+                "id": "ebe835a7ee6bd8be9e54a2cdaf5538975305712f5369fd6575328e128c431cce",
+                "name": "353d53-b99a2899",
+                "stats": {
+                  "compressed_size": 730,
+                  "deduplicated_size": 730,
+                  "nfiles": 0,
+                  "original_size": 1022
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/run/media/ender/EF95-0C0B: stat: [Errno 2] No such file or directory: '/run/media/ender/EF95-0C0B'",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-26T15:48:36.550304273+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1246.08178,
+                "id": "20c5f8ea31e6dd07a6e70dd30b8d4671bc9e6e673c890a5e22aff147634c7243",
+                "name": "353d53-c8681dd4",
+                "stats": {
+                  "compressed_size": 51278007414,
+                  "deduplicated_size": 2189920687,
+                  "nfiles": 9144,
+                  "original_size": 52273912410
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-19T21:44:22.848030436+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1129.195481,
+                "id": "ed33a3e5ecaa35571d01fb12b2fcc89edc77cb8099197a7771605f2b3c93030b",
+                "name": "353d53-99bda114",
+                "stats": {
+                  "compressed_size": 49104696927,
+                  "deduplicated_size": 2866594964,
+                  "nfiles": 8917,
+                  "original_size": 50012579195
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/WhatsApp.zip"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-05T11:31:22.677615270+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1059.354728,
+                "id": "495c4e6f97a3412588c2d2fd745297576ce80cb1d34b33c2e3f54f453e5491f8",
+                "name": "353d53-24d52893",
+                "stats": {
+                  "compressed_size": 44932931673,
+                  "deduplicated_size": 956887928,
+                  "nfiles": 8702,
+                  "original_size": 45499435978
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/WhatsApp.zip"
+          }
+        ]
+      },
+      {
+        "end": "2024-03-30T21:57:41.426955379+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1398.055624,
+                "id": "33dbe3a630b9b75db11d9102d7ed5b89bcdf3a1ad432de282b20ac200a3e6c8b",
+                "name": "353d53-1b101a15",
+                "stats": {
+                  "compressed_size": 44078589120,
+                  "deduplicated_size": 42942187077,
+                  "nfiles": 8639,
+                  "original_size": 44644314486
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/ender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+          },
+          {
+            "PathPrefix": "/run/media/ender/EF95-0C0B/WhatsApp.zip"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-08-28T22:26:46.158122153+03:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 929.705956,
+              "id": "3ce52f8b1b83096db198090ed36027ec752739faeb2040c654602ab30e88e5a8",
+              "name": "353d53-0fa04661",
+              "stats": {
+                "compressed_size": 49915044379,
+                "deduplicated_size": 257104105,
+                "nfiles": 8829,
+                "original_size": 50831208997
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        "/run/media/ender/EF95-0C0B"
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Alarms"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Audiobooks"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Download"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Notifications"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Podcasts"
+        },
+        {
+          "PathPrefix": "/run/media/ender/EF95-0C0B/Ringtones"
+        }
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "c060458b-995a-4491-886e-77ef41caedf6": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-08-30T12:05:10.902078054+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": null,
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "c8e9262f-4da2-4409-a794-915d7c469feb": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-08-30T11:38:32.979936461+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-13T12:35:33.372974788+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 508.879533,
+                "id": "85bd492c931d769529a03fb99b10bb1dc33817bc61c772faaa8bf4daa5678a89",
+                "name": "34ad8a-2c5a1478",
+                "stats": {
+                  "compressed_size": 65638373742,
+                  "deduplicated_size": 374275776,
+                  "nfiles": 63491,
+                  "original_size": 74675079541
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-02T16:06:57.064571760+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 13.553359,
+                "id": "55eb1789c1197d13a82c49dc9df3c31dee5451530a048049a8414a097f2878e3",
+                "name": "34ad8a-8047ac73",
+                "stats": {
+                  "compressed_size": 65432458949,
+                  "deduplicated_size": 104677691,
+                  "nfiles": 63424,
+                  "original_size": 74215680290
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-01T13:00:21.455226108+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 445.666886,
+                "id": "d147df9f9fd86ace2943cec84afc831666bc2792a270b663fdc8b7c5e8f1fa6d",
+                "name": "34ad8a-54312fea",
+                "stats": {
+                  "compressed_size": 65399577577,
+                  "deduplicated_size": 3759066822,
+                  "nfiles": 63362,
+                  "original_size": 74178045393
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-31T12:09:15.086505164+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 19.487692,
+                "id": "827c8e21e785a7cbbbc564147d09e7708615cef1441511be9eb73fd90e29c509",
+                "name": "34ad8a-ec3d3992",
+                "stats": {
+                  "compressed_size": 64284903501,
+                  "deduplicated_size": 233986591,
+                  "nfiles": 66329,
+                  "original_size": 74868328350
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-23T22:28:44.798346059+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 12.496708,
+                "id": "fce67b9939d03263ba47617ec57a2bad72f484fcf0876fdeb2d4e84b40142402",
+                "name": "34ad8a-dae1d703",
+                "stats": {
+                  "compressed_size": 64148474526,
+                  "deduplicated_size": 4145063,
+                  "nfiles": 65567,
+                  "original_size": 74618731125
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-05-23T22:22:51.691506476+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 469.623518,
+                "id": "c326a960c858677b1a0f48e9e15fdde24e566ef5e9ebc8bda1315c11bd59c967",
+                "name": "34ad8a-034c76b4",
+                "stats": {
+                  "compressed_size": 64144542425,
+                  "deduplicated_size": 96646591,
+                  "nfiles": 65563,
+                  "original_size": 74614785849
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-26T15:52:09.595963146+03:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-04-19T22:47:06.312859350+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 308.669917,
+                "id": "6b38fb9cfba3c25676d82ccb2a3a27741b5d09157832c11675dc2902efae5994",
+                "name": "34ad8a-06038390",
+                "stats": {
+                  "compressed_size": 33191203594,
+                  "deduplicated_size": 2145745777,
+                  "nfiles": 59718,
+                  "original_size": 43418806521
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-19T22:40:30.607425148+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-19T22:39:58.391924225+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-19T22:37:01.071625128+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-07T12:34:06.654146336+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 11.221317,
+                "id": "118ee19dbc7b551750010c2e099612f6bd3817c6c6dadba6ce463062a15f5cce",
+                "name": "34ad8a-352b5a64",
+                "stats": {
+                  "compressed_size": 31190585086,
+                  "deduplicated_size": 12150306,
+                  "nfiles": 55132,
+                  "original_size": 40641840881
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-07T12:30:51.238013396+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 182.816415,
+                "id": "d44cdc3f2e2bfb81477ba28f45317c81fe907e7fd152b4f7f2eac608212bc698",
+                "name": "34ad8a-71e2a59e",
+                "stats": {
+                  "compressed_size": 30972124729,
+                  "deduplicated_size": 61335268,
+                  "nfiles": 54503,
+                  "original_size": 40130188364
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/Omori"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/SEX.with.HITLER.2"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-07T12:24:06.209383441+03:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 23\n\nrsync: [sender] change_dir \"/home/ender/Documents/Card\" failed: No such file or directory (2)\nrsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1336) [sender=3.2.7]"
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/Omori"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/SEX.with.HITLER.2"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-07T12:23:39.868301716+03:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 127\n\n/home/ender/.local/share/backup/prebackup.sh: line 4: rsync: command not found"
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/Omori"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/SEX.with.HITLER.2"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-07T12:22:17.805388443+03:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 127\n\nbash: line 1: /home/ender/.local/share/backup/prebackup.sh: No such file or directory"
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/Omori"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games/SEX.with.HITLER.2"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-06T14:01:19.698484588+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 7.423123,
+                "id": "c2c01dde0fad389b4b781ea1775755e818e86e7f7bd5081f736696560e4c1ca9",
+                "name": "34ad8a-8786d929",
+                "stats": {
+                  "compressed_size": 32939023978,
+                  "deduplicated_size": 5088,
+                  "nfiles": 48239,
+                  "original_size": 41982243659
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-06T14:00:35.901150385+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 5.897604,
+                "id": "bfd447f71fa4d22e7fc720f93a5e77dbe0365be53cfa79efb5b2498d2df490a7",
+                "name": "34ad8a-aef1968a",
+                "stats": {
+                  "compressed_size": 16296695246,
+                  "deduplicated_size": 46797,
+                  "nfiles": 37853,
+                  "original_size": 21888919087
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          },
+          {
+            "PathPrefix": "/home/ender/Documents/Games"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-06T13:58:53.303094619+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 7.29689,
+                "id": "cd1ffc5b6325a5edcc677df9ee5bef393019cc4dc475a3d36359b14d3e533c5b",
+                "name": "34ad8a-03f5959f",
+                "stats": {
+                  "compressed_size": 32939023979,
+                  "deduplicated_size": 5089,
+                  "nfiles": 48239,
+                  "original_size": 41982243659
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-06T13:55:09.392294334+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 7.087654,
+                "id": "2be9e2277d8dca340785e0ef2f0a82dbf2695aae01c5d94a7182fe5a55b6e7ac",
+                "name": "34ad8a-a4a89c58",
+                "stats": {
+                  "compressed_size": 32939023978,
+                  "deduplicated_size": 5088,
+                  "nfiles": 48239,
+                  "original_size": 41982243659
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-04-06T13:52:17.091480076+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 11.381142,
+                "id": "c00c307bfe3ab218cfad5454285a1accf3db6e0adff0e604ea435d3fc02c0da2",
+                "name": "34ad8a-c42e6f94",
+                "stats": {
+                  "compressed_size": 76842642399,
+                  "deduplicated_size": 14595974,
+                  "nfiles": 48337,
+                  "original_size": 85885456470
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": []
+      },
+      {
+        "end": "2024-04-06T13:51:37.675565494+03:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 2\n\nsed: can't read /run/media/ender/EU-1/info.txt: No such file or directory"
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": []
+      },
+      {
+        "end": "2024-04-05T23:21:18.519602957+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 9.000848,
+                "id": "5d8eecb78d4cc031e81f11540efd8356f8d58a46c624b34ac335798bf4cb90e4",
+                "name": "34ad8a-3d738e45",
+                "stats": {
+                  "compressed_size": 76828177067,
+                  "deduplicated_size": 5425,
+                  "nfiles": 47944,
+                  "original_size": 85861996205
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": []
+      },
+      {
+        "end": "2024-04-05T23:16:46.827980736+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1356.763045,
+                "id": "3a52acd2245378cd424041fccbc0b691de5e16362e5edaaffe749f720aeb114d",
+                "name": "34ad8a-d0058b1b",
+                "stats": {
+                  "compressed_size": 76828177073,
+                  "deduplicated_size": 73350090816,
+                  "nfiles": 47944,
+                  "original_size": 85861996205
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": []
+      },
+      {
+        "end": "2024-04-05T22:39:54.946983773+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          "Documents",
+          "Documents/Games/Minecraft",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": []
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-08-13T12:35:33.372974788+03:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 508.879533,
+              "id": "85bd492c931d769529a03fb99b10bb1dc33817bc61c772faaa8bf4daa5678a89",
+              "name": "34ad8a-2c5a1478",
+              "stats": {
+                "compressed_size": 65638373742,
+                "deduplicated_size": 374275776,
+                "nfiles": 63491,
+                "original_size": 74675079541
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        ".local/share/wineprefixes",
+        ".minecraft",
+        ".var/app/net.lutris.Lutris/config",
+        ".var/app/net.lutris.Lutris/data",
+        "Documents",
+        "Documents/Games/Minecraft",
+        "Music",
+        "Pictures",
+        "Videos/Projects",
+        "Videos/Random"
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/home/ender/Documents/Card"
+        }
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "ce3c5f84-a48c-4250-a7bb-2c0f70b83f66": {
+    "config_version": 2,
+    "run": [],
+    "running": null,
+    "last_completed": null,
+    "last_check": null,
+    "suggested_exclude": {}
+  },
+  "e683284a-9a8a-41e6-ab27-99a4949c6010": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-03-30T22:22:56.450409569+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 26.92447,
+                "id": "362f0ba132eb2d3a4e6bc0d6aaabb4f014caf992358a05c3d44fa2111c8db3ef",
+                "name": "02535d-dcfa5982",
+                "stats": {
+                  "compressed_size": 1134309962,
+                  "deduplicated_size": 1134309962,
+                  "nfiles": 149,
+                  "original_size": 1136440292
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music/Random Playlist"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-03-30T22:22:56.450409569+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 26.92447,
+              "id": "362f0ba132eb2d3a4e6bc0d6aaabb4f014caf992358a05c3d44fa2111c8db3ef",
+              "name": "02535d-dcfa5982",
+              "stats": {
+                "compressed_size": 1134309962,
+                "deduplicated_size": 1134309962,
+                "nfiles": 149,
+                "original_size": 1136440292
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        "Music/Random Playlist"
+      ],
+      "exclude": [
+        "Caches"
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "ebe1f4de-a393-44e5-ae28-09f315bd6980": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-11-30T17:15:51.725468091+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 27.260168,
+                "id": "1b28ecabd29888bcd8013e2627c6e41e1aa3c4f7662b9e349e325839878cc6b8",
+                "name": "a24f56-63fd4e37",
+                "stats": {
+                  "compressed_size": 89542475325,
+                  "deduplicated_size": 121043391,
+                  "nfiles": 83901,
+                  "original_size": 102809816314
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-23T02:40:39.231445559+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 18.914355,
+                "id": "1a2265f75036ed23c7dc48760f5d3075e74acdb827eb907373d4579fcbd7deb1",
+                "name": "a24f56-11bd3eb2",
+                "stats": {
+                  "compressed_size": 89558820439,
+                  "deduplicated_size": 48823209,
+                  "nfiles": 83939,
+                  "original_size": 102839401680
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-16T02:13:07.436120697+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 21.883347,
+                "id": "da2d82bda4164e4af45f44864ea2da3e761a2c112b3dd6b11b7aa7945ef5dd79",
+                "name": "a24f56-f91a7b62",
+                "stats": {
+                  "compressed_size": 89517534226,
+                  "deduplicated_size": 7582,
+                  "nfiles": 83815,
+                  "original_size": 102796474304
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-16T02:12:03.458485659+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 254.822145,
+                "id": "1f26fcf9c08f33b1e9302c60c9cbc5647dfa28502550fbee69d536dcd5c8a1d5",
+                "name": "a24f56-a975a23b",
+                "stats": {
+                  "compressed_size": 89517534227,
+                  "deduplicated_size": 5022497445,
+                  "nfiles": 83815,
+                  "original_size": 102796474304
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-10T01:09:08.128472798+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 19.686723,
+                "id": "574592230d4e31f2e6ecbdcedc17ad2d19c45640405c3e0f985fe22d857e835c",
+                "name": "a24f56-a6308f81",
+                "stats": {
+                  "compressed_size": 85538963038,
+                  "deduplicated_size": 117303562,
+                  "nfiles": 82711,
+                  "original_size": 97153460862
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-11-10T01:02:57.737308160+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 427.526003,
+                "id": "3a76a40a31a08336171111cc771ad175eaa53774e461e94d383bd252db039ec9",
+                "name": "a24f56-ab0f828d",
+                "stats": {
+                  "compressed_size": 85439675866,
+                  "deduplicated_size": 1287934409,
+                  "nfiles": 82643,
+                  "original_size": 97040155161
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-28T16:21:49.316401611+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 322.259601,
+                "id": "d19ebb0f1ede0e6a8c9e65df002b9e4c74bbcacb1ce051c9c003e832bd9f66a9",
+                "name": "a24f56-fd619f69",
+                "stats": {
+                  "compressed_size": 90214443253,
+                  "deduplicated_size": 8058195171,
+                  "nfiles": 73135,
+                  "original_size": 101691782612
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-15T20:12:44.727308362+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 522.359015,
+                "id": "a57176de49302b5e0a7ea601c5b6378be3801dc805b2afb1d6a7f0d86f6bd61c",
+                "name": "a24f56-9a96ed94",
+                "stats": {
+                  "compressed_size": 81481362656,
+                  "deduplicated_size": 6287075653,
+                  "nfiles": 71759,
+                  "original_size": 92874299124
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-09-15T13:52:47.703791024+03:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-30T13:14:20.535917563+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 13.792403,
+                "id": "fe5be14b81dfae7cc51dacc8c1c144a9d49cd04cf259afdb1908e8ec87589cb6",
+                "name": "a24f56-8f16402a",
+                "stats": {
+                  "compressed_size": 75326616331,
+                  "deduplicated_size": 151394,
+                  "nfiles": 73214,
+                  "original_size": 85503319480
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2024-08-30T13:05:59.944817386+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 2295.180774,
+                "id": "d48609712fe99699b6b9e8c7b7241d15e20a871960e52c2d6138e386b7852b33",
+                "name": "a24f56-62efa609",
+                "stats": {
+                  "compressed_size": 75326059612,
+                  "deduplicated_size": 64647090065,
+                  "nfiles": 73214,
+                  "original_size": 85501354904
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/wineprefixes",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/ender/Documents/Card"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-11-30T17:15:51.725468091+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 27.260168,
+              "id": "1b28ecabd29888bcd8013e2627c6e41e1aa3c4f7662b9e349e325839878cc6b8",
+              "name": "a24f56-63fd4e37",
+              "stats": {
+                "compressed_size": 89542475325,
+                "deduplicated_size": 121043391,
+                "nfiles": 83901,
+                "original_size": 102809816314
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        ".local/share/auth",
+        ".local/share/wineprefixes",
+        ".minecraft",
+        ".var/app/net.lutris.Lutris/config",
+        ".var/app/net.lutris.Lutris/data",
+        ".var/app/net.pcsx2.PCSX2",
+        "Documents",
+        "Music",
+        "Pictures",
+        "Videos/Projects",
+        "Videos/Random"
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/home/eepyender/Documents/Card"
+        }
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "eda4faa5-c402-4154-907b-3475a26af8f3": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-03-23T13:29:12.812896866+02:00",
+        "outcome": {
+          "Failed": {
+            "Other": "No files selected to be included into backup."
+          }
+        },
+        "messages": [],
+        "include": [],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-23T13:29:06.111995675+02:00",
+        "outcome": {
+          "Failed": {
+            "Other": "usage: borg create [-h] [--critical] [--error] [--warning] [--info] [--debug]\n"
+          }
+        },
+        "messages": [
+          {
+            "UnparsableErr": "usage: borg create [-h] [--critical] [--error] [--warning] [--info] [--debug]\n"
+          },
+          {
+            "UnparsableErr": "                   [--debug-topic TOPIC] [-p] [--iec] [--log-json]\n"
+          },
+          {
+            "UnparsableErr": "                   [--lock-wait SECONDS] [--bypass-lock] [--show-version]\n"
+          },
+          {
+            "UnparsableErr": "                   [--show-rc] [--umask M] [--remote-path PATH]\n"
+          },
+          {
+            "UnparsableErr": "                   [--remote-ratelimit RATE] [--upload-ratelimit RATE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--remote-buffer UPLOAD_BUFFER]\n"
+          },
+          {
+            "UnparsableErr": "                   [--upload-buffer UPLOAD_BUFFER] [--consider-part-files]\n"
+          },
+          {
+            "UnparsableErr": "                   [--debug-profile FILE] [--rsh RSH] [-n] [-s] [--list]\n"
+          },
+          {
+            "UnparsableErr": "                   [--filter STATUSCHARS] [--json] [--no-cache-sync]\n"
+          },
+          {
+            "UnparsableErr": "                   [--stdin-name NAME] [--stdin-user USER]\n"
+          },
+          {
+            "UnparsableErr": "                   [--stdin-group GROUP] [--stdin-mode M]\n"
+          },
+          {
+            "UnparsableErr": "                   [--content-from-command] [--paths-from-stdin]\n"
+          },
+          {
+            "UnparsableErr": "                   [--paths-from-command] [--paths-delimiter DELIM]\n"
+          },
+          {
+            "UnparsableErr": "                   [-e PATTERN] [--exclude-from EXCLUDEFILE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--pattern PATTERN] [--patterns-from PATTERNFILE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--exclude-caches] [--exclude-if-present NAME]\n"
+          },
+          {
+            "UnparsableErr": "                   [--keep-exclude-tags] [--exclude-nodump] [-x]\n"
+          },
+          {
+            "UnparsableErr": "                   [--numeric-owner] [--numeric-ids] [--noatime] [--atime]\n"
+          },
+          {
+            "UnparsableErr": "                   [--noctime] [--nobirthtime] [--nobsdflags] [--noflags]\n"
+          },
+          {
+            "UnparsableErr": "                   [--noacls] [--noxattrs] [--sparse] [--files-cache MODE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--read-special] [--comment COMMENT]\n"
+          },
+          {
+            "UnparsableErr": "                   [--timestamp TIMESTAMP] [-c SECONDS]\n"
+          },
+          {
+            "UnparsableErr": "                   [--chunker-params PARAMS] [-C COMPRESSION]\n"
+          },
+          {
+            "UnparsableErr": "                   ARCHIVE [PATH ...]\n"
+          },
+          {
+            "UnparsableErr": "borg create: error: argument ARCHIVE: \"ls\": No archive specified\n"
+          }
+        ],
+        "include": [
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-23T13:28:23.857631586+02:00",
+        "outcome": {
+          "Failed": {
+            "Other": "usage: borg create [-h] [--critical] [--error] [--warning] [--info] [--debug]\n"
+          }
+        },
+        "messages": [
+          {
+            "UnparsableErr": "usage: borg create [-h] [--critical] [--error] [--warning] [--info] [--debug]\n"
+          },
+          {
+            "UnparsableErr": "                   [--debug-topic TOPIC] [-p] [--iec] [--log-json]\n"
+          },
+          {
+            "UnparsableErr": "                   [--lock-wait SECONDS] [--bypass-lock] [--show-version]\n"
+          },
+          {
+            "UnparsableErr": "                   [--show-rc] [--umask M] [--remote-path PATH]\n"
+          },
+          {
+            "UnparsableErr": "                   [--remote-ratelimit RATE] [--upload-ratelimit RATE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--remote-buffer UPLOAD_BUFFER]\n"
+          },
+          {
+            "UnparsableErr": "                   [--upload-buffer UPLOAD_BUFFER] [--consider-part-files]\n"
+          },
+          {
+            "UnparsableErr": "                   [--debug-profile FILE] [--rsh RSH] [-n] [-s] [--list]\n"
+          },
+          {
+            "UnparsableErr": "                   [--filter STATUSCHARS] [--json] [--no-cache-sync]\n"
+          },
+          {
+            "UnparsableErr": "                   [--stdin-name NAME] [--stdin-user USER]\n"
+          },
+          {
+            "UnparsableErr": "                   [--stdin-group GROUP] [--stdin-mode M]\n"
+          },
+          {
+            "UnparsableErr": "                   [--content-from-command] [--paths-from-stdin]\n"
+          },
+          {
+            "UnparsableErr": "                   [--paths-from-command] [--paths-delimiter DELIM]\n"
+          },
+          {
+            "UnparsableErr": "                   [-e PATTERN] [--exclude-from EXCLUDEFILE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--pattern PATTERN] [--patterns-from PATTERNFILE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--exclude-caches] [--exclude-if-present NAME]\n"
+          },
+          {
+            "UnparsableErr": "                   [--keep-exclude-tags] [--exclude-nodump] [-x]\n"
+          },
+          {
+            "UnparsableErr": "                   [--numeric-owner] [--numeric-ids] [--noatime] [--atime]\n"
+          },
+          {
+            "UnparsableErr": "                   [--noctime] [--nobirthtime] [--nobsdflags] [--noflags]\n"
+          },
+          {
+            "UnparsableErr": "                   [--noacls] [--noxattrs] [--sparse] [--files-cache MODE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--read-special] [--comment COMMENT]\n"
+          },
+          {
+            "UnparsableErr": "                   [--timestamp TIMESTAMP] [-c SECONDS]\n"
+          },
+          {
+            "UnparsableErr": "                   [--chunker-params PARAMS] [-C COMPRESSION]\n"
+          },
+          {
+            "UnparsableErr": "                   ARCHIVE [PATH ...]\n"
+          },
+          {
+            "UnparsableErr": "borg create: error: argument ARCHIVE: \"ls\": No archive specified\n"
+          }
+        ],
+        "include": [
+          "/run/media/ender/EU-1/Vault/Temporary/Skema",
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-23T13:28:08.552525027+02:00",
+        "outcome": {
+          "Failed": {
+            "Other": "usage: borg create [-h] [--critical] [--error] [--warning] [--info] [--debug]\n"
+          }
+        },
+        "messages": [
+          {
+            "UnparsableErr": "usage: borg create [-h] [--critical] [--error] [--warning] [--info] [--debug]\n"
+          },
+          {
+            "UnparsableErr": "                   [--debug-topic TOPIC] [-p] [--iec] [--log-json]\n"
+          },
+          {
+            "UnparsableErr": "                   [--lock-wait SECONDS] [--bypass-lock] [--show-version]\n"
+          },
+          {
+            "UnparsableErr": "                   [--show-rc] [--umask M] [--remote-path PATH]\n"
+          },
+          {
+            "UnparsableErr": "                   [--remote-ratelimit RATE] [--upload-ratelimit RATE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--remote-buffer UPLOAD_BUFFER]\n"
+          },
+          {
+            "UnparsableErr": "                   [--upload-buffer UPLOAD_BUFFER] [--consider-part-files]\n"
+          },
+          {
+            "UnparsableErr": "                   [--debug-profile FILE] [--rsh RSH] [-n] [-s] [--list]\n"
+          },
+          {
+            "UnparsableErr": "                   [--filter STATUSCHARS] [--json] [--no-cache-sync]\n"
+          },
+          {
+            "UnparsableErr": "                   [--stdin-name NAME] [--stdin-user USER]\n"
+          },
+          {
+            "UnparsableErr": "                   [--stdin-group GROUP] [--stdin-mode M]\n"
+          },
+          {
+            "UnparsableErr": "                   [--content-from-command] [--paths-from-stdin]\n"
+          },
+          {
+            "UnparsableErr": "                   [--paths-from-command] [--paths-delimiter DELIM]\n"
+          },
+          {
+            "UnparsableErr": "                   [-e PATTERN] [--exclude-from EXCLUDEFILE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--pattern PATTERN] [--patterns-from PATTERNFILE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--exclude-caches] [--exclude-if-present NAME]\n"
+          },
+          {
+            "UnparsableErr": "                   [--keep-exclude-tags] [--exclude-nodump] [-x]\n"
+          },
+          {
+            "UnparsableErr": "                   [--numeric-owner] [--numeric-ids] [--noatime] [--atime]\n"
+          },
+          {
+            "UnparsableErr": "                   [--noctime] [--nobirthtime] [--nobsdflags] [--noflags]\n"
+          },
+          {
+            "UnparsableErr": "                   [--noacls] [--noxattrs] [--sparse] [--files-cache MODE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--read-special] [--comment COMMENT]\n"
+          },
+          {
+            "UnparsableErr": "                   [--timestamp TIMESTAMP] [-c SECONDS]\n"
+          },
+          {
+            "UnparsableErr": "                   [--chunker-params PARAMS] [-C COMPRESSION]\n"
+          },
+          {
+            "UnparsableErr": "                   ARCHIVE [PATH ...]\n"
+          },
+          {
+            "UnparsableErr": "borg create: error: argument ARCHIVE: \"ls\": No archive specified\n"
+          }
+        ],
+        "include": [
+          "/run/media/ender/EU-1/Vault/Temporary/Skema",
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-23T13:28:00.816629265+02:00",
+        "outcome": {
+          "Failed": {
+            "Other": "usage: borg create [-h] [--critical] [--error] [--warning] [--info] [--debug]\n"
+          }
+        },
+        "messages": [
+          {
+            "UnparsableErr": "usage: borg create [-h] [--critical] [--error] [--warning] [--info] [--debug]\n"
+          },
+          {
+            "UnparsableErr": "                   [--debug-topic TOPIC] [-p] [--iec] [--log-json]\n"
+          },
+          {
+            "UnparsableErr": "                   [--lock-wait SECONDS] [--bypass-lock] [--show-version]\n"
+          },
+          {
+            "UnparsableErr": "                   [--show-rc] [--umask M] [--remote-path PATH]\n"
+          },
+          {
+            "UnparsableErr": "                   [--remote-ratelimit RATE] [--upload-ratelimit RATE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--remote-buffer UPLOAD_BUFFER]\n"
+          },
+          {
+            "UnparsableErr": "                   [--upload-buffer UPLOAD_BUFFER] [--consider-part-files]\n"
+          },
+          {
+            "UnparsableErr": "                   [--debug-profile FILE] [--rsh RSH] [-n] [-s] [--list]\n"
+          },
+          {
+            "UnparsableErr": "                   [--filter STATUSCHARS] [--json] [--no-cache-sync]\n"
+          },
+          {
+            "UnparsableErr": "                   [--stdin-name NAME] [--stdin-user USER]\n"
+          },
+          {
+            "UnparsableErr": "                   [--stdin-group GROUP] [--stdin-mode M]\n"
+          },
+          {
+            "UnparsableErr": "                   [--content-from-command] [--paths-from-stdin]\n"
+          },
+          {
+            "UnparsableErr": "                   [--paths-from-command] [--paths-delimiter DELIM]\n"
+          },
+          {
+            "UnparsableErr": "                   [-e PATTERN] [--exclude-from EXCLUDEFILE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--pattern PATTERN] [--patterns-from PATTERNFILE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--exclude-caches] [--exclude-if-present NAME]\n"
+          },
+          {
+            "UnparsableErr": "                   [--keep-exclude-tags] [--exclude-nodump] [-x]\n"
+          },
+          {
+            "UnparsableErr": "                   [--numeric-owner] [--numeric-ids] [--noatime] [--atime]\n"
+          },
+          {
+            "UnparsableErr": "                   [--noctime] [--nobirthtime] [--nobsdflags] [--noflags]\n"
+          },
+          {
+            "UnparsableErr": "                   [--noacls] [--noxattrs] [--sparse] [--files-cache MODE]\n"
+          },
+          {
+            "UnparsableErr": "                   [--read-special] [--comment COMMENT]\n"
+          },
+          {
+            "UnparsableErr": "                   [--timestamp TIMESTAMP] [-c SECONDS]\n"
+          },
+          {
+            "UnparsableErr": "                   [--chunker-params PARAMS] [-C COMPRESSION]\n"
+          },
+          {
+            "UnparsableErr": "                   ARCHIVE [PATH ...]\n"
+          },
+          {
+            "UnparsableErr": "borg create: error: argument ARCHIVE: \"ls\": No archive specified\n"
+          }
+        ],
+        "include": [
+          "/run/media/ender/EU-1/Vault/Temporary/Skema",
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-10T15:52:33.691802854+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.104752,
+                "id": "7a62ee5efebb44002881a3f9a513a0260178869d0a9cae3643a03ef100c52d8d",
+                "name": "17c376-1bfefe90",
+                "stats": {
+                  "compressed_size": 1975530227,
+                  "deduplicated_size": 778,
+                  "nfiles": 279,
+                  "original_size": 1983172126
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-10T15:41:53.542049024+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.326085,
+                "id": "3913949c8ca56fe02f1fa02dd0bf48f2322ff7e51555e15193d122f3c229a4b5",
+                "name": "17c376-f4b628bf",
+                "stats": {
+                  "compressed_size": 1975530227,
+                  "deduplicated_size": 778,
+                  "nfiles": 279,
+                  "original_size": 1983172126
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-09T23:38:54.365670693+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 0.061285,
+                "id": "153561328c9c8e029126cfe1ea7119da30a454892768739477075db7840267db",
+                "name": "17c376-55420b23",
+                "stats": {
+                  "compressed_size": 1975530229,
+                  "deduplicated_size": 780,
+                  "nfiles": 279,
+                  "original_size": 1983172126
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-09T23:34:54.171471418+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 67.687739,
+                "id": "1c337c3c600f9334c5143fe33c20f17e4c54004764c67287170416ecead2de3c",
+                "name": "17c376-243d98d8",
+                "stats": {
+                  "compressed_size": 1975530238,
+                  "deduplicated_size": 1975530238,
+                  "nfiles": 279,
+                  "original_size": 1983172126
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-09T23:09:00.660732225+02:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 3\n\nrsync: [sender] change_dir \"/Pictures/Webcam\" failed: No such file or directory (2)\nrsync: [Receiver] change_dir#3 \"/Downloads\" failed: No such file or directory (2)\nrsync error: errors selecting input/output files, dirs (code 3) at main.c(827) [Receiver=3.2.7]"
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      },
+      {
+        "end": "2024-03-09T23:07:17.023475227+02:00",
+        "outcome": {
+          "Aborted": {
+            "UserShellCommand": "The pre-backup command configured in preferences returned a failure code: 1\n\n(zenity:66607): Gtk-WARNING **: 23:07:16.964: Failed to open display"
+          }
+        },
+        "messages": [],
+        "include": [
+          "Music"
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-03-10T15:52:33.691802854+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 0.104752,
+              "id": "7a62ee5efebb44002881a3f9a513a0260178869d0a9cae3643a03ef100c52d8d",
+              "name": "17c376-1bfefe90",
+              "stats": {
+                "compressed_size": 1975530227,
+                "deduplicated_size": 778,
+                "nfiles": 279,
+                "original_size": 1983172126
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        "Music"
+      ],
+      "exclude": [
+        "Caches"
+      ]
+    },
+    "last_check": {
+      "end": "2024-03-09T23:40:52.385405781+02:00",
+      "outcome": "Success"
+    },
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  }
+}
