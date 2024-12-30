@@ -9,11 +9,16 @@ if pgrep -x "wl-screenrec" > /dev/null; then
     exit 0
 fi
 
-source=$(pactl list short sources | grep -oE 'bluez_output\.[^ ]+\.monitor' | head -n 1)
+# First, check for the specific Razer source
+source=$(pactl list short sources | grep -oE 'alsa_output\.usb-Razer_Razer_Raiju_PM1714C01502000-00\.analog-stereo\.monitor' | head -n 1)
 
-# Check if the first pattern matched
+# If not found, look for any other bluez_output pattern
 if [ -z "$source" ]; then
-    # If not, look for the alsa_output pattern
+    source=$(pactl list short sources | grep -oE 'bluez_output\.[^ ]+\.monitor' | head -n 1)
+fi
+
+# If still not found, look for any other alsa_output pattern
+if [ -z "$source" ]; then
     source=$(pactl list short sources | grep -oE 'alsa_output\.[^ ]+\.monitor' | head -n 1)
 fi
 

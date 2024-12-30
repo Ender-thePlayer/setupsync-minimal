@@ -31,7 +31,9 @@ if status is-interactive
 
     set -x PATH $HOME/.venv/bin $PATH
 
-    alias 2024 'echo "YEAR OF THE DESKTOP"'
+    set -x date "$( math $( date +%Y ) +1 )"
+
+    alias $date 'echo "YEAR OF THE DESKTOP"'
     alias 17 'echo "セブンティーナァァァァァ!"'
     alias vencord 'sh -c "(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh | sh)"'
     alias freq 'watch -n.1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""'

@@ -21,6 +21,9 @@ application/json=org.gnome.TextEditor.desktop
 audio/flac=vlc.desktop
 audio/mp4=vlc.desktop
 audio/vnd.wave=vlc.desktop
+video/x-matroska=mpv.desktop
+x-scheme-handler/discord-831593107883032657=discord-831593107883032657.desktop
+application/pdf=librewolf.desktop
 
 [Added Associations]
 application/x-shellscript=org.gnome.TextEditor.desktop;
@@ -32,3 +35,5 @@ application/json=org.gnome.TextEditor.desktop;
 audio/flac=vlc.desktop;
 audio/mp4=vlc.desktop;
 audio/vnd.wave=vlc.desktop;
+video/x-matroska=vlc.desktop;mpv.desktop;
+application/pdf=librewolf.desktop;
