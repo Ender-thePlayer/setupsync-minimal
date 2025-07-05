@@ -1,0 +1,5 @@
+leonardssh.vscord
+prince781.vala
+ritwickdey.liveserver
+timonwong.shellcheck
+zhuangtongfa.material-theme

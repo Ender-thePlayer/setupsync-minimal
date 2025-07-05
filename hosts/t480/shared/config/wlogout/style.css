@@ -1,0 +1,46 @@
+@import "macchiato.css";
+
+window {
+    font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-color: @core;
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-size: 15%;
+    border-style: solid;
+    border-color: @overlay2;
+    border-width: 2px;
+    background-color: @mantleq;
+    margin: 3px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 0;
+    color: @text;
+    padding-bottom: 8px; /* Adjust to shift text upward */
+}
+
+button:hover {
+    background-color: @crustq;
+}
+
+button:focus {
+    background-color: @crustq;
+}
+
+#lock {
+    background-image: image(url("./icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("./icons/logout.png"));
+}
+
+#shutdown {
+    background-image: image(url("./icons/power.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/restart.png"));
+}

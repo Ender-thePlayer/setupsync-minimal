@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -x
+mpris-scrobbler-signon token lastfm
+
+read -p "Press Enter to continue after confirming authentication..."
+mpris-scrobbler-signon session lastfm
+mpris-scrobbler-signon enable lastfm
+
+echo "Last.fm scrobbling setup complete"

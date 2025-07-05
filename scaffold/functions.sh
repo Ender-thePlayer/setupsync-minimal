@@ -2,11 +2,11 @@
 
 function welcome_message {
     echo "=================================="
-    echo "Welcome to SetupSync"
-    echo -e "Version:\e[1m 24.1230\e[0m"
+    echo "Welcome to SetupSync Beta, codename RestoreStation"
+    echo -e "Version:\e[1m rs05.0725\e[0m"
     echo "=================================="
     echo ""
-    echo "Released on: 30/12/2024"
+    echo "Released on: 05/07/2025"
     echo ""
 }
 function drive {
