@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
-# Set strict error handling
 set -euo pipefail
-
-# Configuration
 CONFIG_DIR="$HOME/.config/swww"
 WALLPAPER_DIR="$HOME/.config/walls/active"
 WALLPAPER_NAME="current_wallpaper"

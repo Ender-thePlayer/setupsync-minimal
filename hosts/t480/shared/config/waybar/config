@@ -1,133 +1,156 @@
 {
-  "position": "top",
-  "spacing": 0,
-  "margin-top": 0,
-  "margin-left": 0,
-  "margin-right": 0,
+	"position": "top",
+	"spacing": 0,
+	"margin-top": 0,
+	"margin-left": 0,
+	"margin-right": 0,
+	"reload_style_on_change": true,
 
-  "modules-left": [
-    "custom/logo",
-    "hyprland/workspaces"
-  ],
-  "modules-center": [
-    "custom/tlp",
-    "clock",
-    "custom/weather"
-  ],
-  "modules-right": [
-    "tray",
-    "battery",
-    "group/hardware",
-    "pulseaudio",
-    "bluetooth"
-  ],
-    
+	"modules-left": [
+		"custom/logo",
+		"hyprland/workspaces"
+	],
 
-  "custom/logo": {
-    "format": "⏻",
-    "tooltip": false,
-    "on-click": "/home/eepyender/.config/rofi/powermenu/powermenu.sh"
-  },
+	"modules-center": [
+		"power-profiles-daemon",
+		"clock",
+		"custom/weather",
+		"idle_inhibitor"
+	],
 
-  "hyprland/workspaces": {
-    "persistent-workspaces": false,
-    "disable-scroll": false,
-    "all-outputs": true,
-    "on-scroll-down": "hyprctl dispatch workspace r-1",
-    "on-scroll-up": "$HOME/.config/scripts/workspace_switch.sh",
-    "scroll-step": 3,
-    "smooth-scrolling-threshold": 5
-  },
+	"modules-right": [
+		"tray",
+		"battery",
+		"group/hardware",
+		"pulseaudio",
+		"bluetooth"
+	],
+		
 
 
-  "clock": {
-    "timezone": "Europe/Bucharest",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "{:%H:%M - %a, %d %b %Y}"
-  },
+	"custom/logo": {
+		"format": "⏻",
+		"tooltip": false,
+		"on-click": "$HOME/.config/scripts/powermenu.sh"
+	},
 
-  "custom/weather": {
-    "format": "{}°",
-    "tooltip": true,
-    "interval": 1200,
-    "exec": "wttrbar --location 'Macin'",
-    "return-type": "json"
-  },
+	"hyprland/workspaces": {
+		"persistent-workspaces": false,
+		"disable-scroll": false,
+		"all-outputs": true,
+		"on-scroll-down": "hyprctl dispatch workspace r-1",
+		"on-scroll-up": "$HOME/.config/scripts/workspace_switch.sh",
+		"scroll-step": 3,
+		"smooth-scrolling-threshold": 5
+	},
 
+	"power-profiles-daemon": {
+		"format": "{icon}",
+		"tooltip-format": "Power profile: {profile}",
+		"tooltip": true,
+		"format-icons": {
+		"default": "",
+		"performance": "",
+		"balanced": " ",
+		"power-saver": " "
+		}
+	},
 
-  "tray": {
-    "spacing": 5
-  },
+	"clock": {
+		"timezone": "Europe/Bucharest",
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"format": "{:%H:%M - %a, %d %b %Y}"
+	},
 
-    "custom/tlp": {
-      "format": "{}",
-      "return-type": "json",
-      "exec": "/opt/tlp-toggle.sh status",
-      "on-click": "/opt/tlp-toggle.sh toggle",
-      "interval": 1,
-      "tooltip": true
-  },
+	"custom/weather": {
+		"format": "{}°",
+		"tooltip": true,
+		"interval": 1200,
+		"exec": "wttrbar --location 'Macin'",
+		"return-type": "json"
+	},
 
-  "battery": {
-    "format": "{capacity}%",
-    "format-charging": "{capacity}% ",
-    "interval": 5,
-    "weighted-average": true,
-    "states": {
-        "warning": 30,
-        "critical": 15
-    },
-    "tooltip": true,
-    "tooltip-format": "{time}"
-  },
+	"idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "󰒳",
+			"deactivated": "󰒲"
+		},
+		"tooltip-format-activated": "Sleep inhibited",
+		"tooltip-format-deactivated": "Sleep allowed"
+	},
 
-  "group/hardware": {
-      "orientation": "horizontal",
-      "drawer": {
-        "transition-duration": 500,
-        "children-class": "not-power",
-        "transition-left-to-right": false
-      },
-      "modules": [
-        "temperature",
-        "cpu",
-        "custom/fan_speed"
-      ]
-  },
+	"tray": {
+		"spacing": 5
+	},
 
-  "temperature": {
-    "format": "{temperatureC}°C",
-    "interval": 1,
-    "tooltip": false
-  },
+	"battery": {
+		"format": "󱊣 {capacity}%",
+		"format-charging": "󱊦  {capacity}%",
+		"interval": 5,
+		"weighted-average": true,
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"tooltip": true,
+		"tooltip-format": "{time}"
+	},
 
-  "cpu": {
-    "format":  "| {max_frequency}GHz",
-    "interval": "1",
-    "tooltip": false
-  },
+	"group/hardware": {
+		"orientation": "horizontal",
+		"drawer": {
+			"transition-duration": 500,
+			"children-class": "not-power",
+			"transition-left-to-right": false
+		},
+		"modules": [
+			"temperature",
+			"cpu",
+			"custom/fan_speed"
+		]
+	},
 
-  "custom/fan_speed": {
-    "exec": "$HOME/.config/scripts/fan_speed.sh",
-    "interval": 1,
-    "format": "{} RPM | ",
-    "tooltip": false
-  },
-    
-  "pulseaudio": {
-    "scroll-step": 5,
-    "max-volume": 150,
-    "format": "VOL {volume:3}%",
-    "format-bluetooth": "BT {volume:3}%",
-    "nospacing": 1,
-    "format-muted": "MUT",
-    "on-click": "pavucontrol"
-  },
-    
-  "bluetooth": {
-    "format": "",
-    "format-disabled": "!",
-    "on-click": "blueberry",
-    "tooltip-format": "{status}"
-  }
+	"temperature": {
+		"format": "{temperatureC}°C",
+		"interval": 1,
+		"tooltip": false
+	},
+
+	"cpu": {
+		"format":  "| {max_frequency}GHz",
+		"interval": "1",
+		"tooltip": false
+	},
+
+	"custom/fan_speed": {
+		"exec": "$HOME/.config/scripts/fan_speed.sh",
+		"interval": 1,
+		"format": "{} RPM | ",
+		"tooltip": false
+	},
+		
+	"pulseaudio": {
+	"scroll-step": 5,
+	"max-volume": 150,
+	"format": "{icon}  {volume:3}%",
+	"format-bluetooth": "{icon}  {volume:3}%",
+	"nospacing": 1,
+	"format-muted": "󰸈 MUT",
+	"format-icons": [
+		"",
+		"",
+		""
+	],
+	"on-click": "pavucontrol",
+	"on-scroll-up": "$HOME/.config/scripts/volume_manager_waybar.sh up",
+	"on-scroll-down": "$HOME/.config/scripts/volume_manager_waybar.sh down"
+	},
+		
+	"bluetooth": {
+		"format": "",
+		"format-disabled": "!",
+		"on-click": "blueberry",
+		"tooltip-format": "{status}"
+	}
 }

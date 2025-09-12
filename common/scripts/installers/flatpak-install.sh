@@ -17,9 +17,11 @@ flatpak=(
 "org.nickvision.tagger"
 "com.github.neithern.g4music"
 "org.localsend.localsend_app"
-"io.gitlab.librewolf-community"
+# "io.gitlab.librewolf-community"
+"one.ablaze.floorp"
 "org.vinegarhq.Sober"
 "org.DolphinEmu.dolphin-emu"
+"net.nokyan.Resources"
 )
 
 

@@ -915,6 +915,279 @@
     "config_version": 2,
     "run": [
       {
+        "end": "2025-09-04T00:51:29.679757567+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 51.042073,
+                "id": "0484e2d7aed13d44cb216570ec5d1077fde18197bf5649d4887ad2114c363c34",
+                "name": "d581a9-6a775b25",
+                "stats": {
+                  "compressed_size": 70102179359,
+                  "deduplicated_size": 1263545156,
+                  "nfiles": 97734,
+                  "original_size": 80912776571
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-23T17:38:01.650640852+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 37.825709,
+                "id": "c6cfa45f9541b889660e9342462d51edfdceaaef02aef893e92f8213b1b6863b",
+                "name": "d581a9-8f340aa6",
+                "stats": {
+                  "compressed_size": 69080820267,
+                  "deduplicated_size": 239760995,
+                  "nfiles": 95313,
+                  "original_size": 79339235107
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-15T16:42:31.671252024+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 25.209642,
+                "id": "4b6d9defaceb22703d4dabec5ea58fedc7b26e1591682a90a238b7dc9d0ea1e2",
+                "name": "d581a9-3c322a40",
+                "stats": {
+                  "compressed_size": 67954368609,
+                  "deduplicated_size": 8553865,
+                  "nfiles": 93344,
+                  "original_size": 77510700986
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-13T19:06:29.421846186+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 17.636026,
+                "id": "cd6e9da1baefc17d24e9466aefc54067b833467b275c0dc5d228da9f692ccf4f",
+                "name": "d581a9-0a5e59bb",
+                "stats": {
+                  "compressed_size": 67945999419,
+                  "deduplicated_size": 8365,
+                  "nfiles": 93333,
+                  "original_size": 77501570698
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-13T19:05:04.482753595+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 26.296219,
+                "id": "42999c54b76f1f1b4fca077fe6773b4bbeb32b976cc0fddce672c255e47f9399",
+                "name": "d581a9-8708bdcb",
+                "stats": {
+                  "compressed_size": 67945999420,
+                  "deduplicated_size": 608372712,
+                  "nfiles": 93333,
+                  "original_size": 77501570698
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-03T14:05:40.704928951+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1264.655976,
+                "id": "20be9cf1aca0c73638016f00b5034d17efe1997d4b9e2ee335a407381f0474de",
+                "name": "d581a9-084a84cc",
+                "stats": {
+                  "compressed_size": 158520324883,
+                  "deduplicated_size": 90474723500,
+                  "nfiles": 94206,
+                  "original_size": 172898550247
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-07-23T02:11:08.265878438+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 445.657236,
+                "id": "75a1fbd614ae03daccbe44129bb12dfd1ff6dc178e7aad2cf6d606baa61a32e7",
+                "name": "d581a9-8178b122",
+                "stats": {
+                  "compressed_size": 71668641869,
+                  "deduplicated_size": 332722594,
+                  "nfiles": 103738,
+                  "original_size": 84041169142
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
         "end": "2025-07-02T13:11:06.559941553+03:00",
         "outcome": {
           "Completed": {
@@ -1726,19 +1999,19 @@
     ],
     "running": null,
     "last_completed": {
-      "end": "2025-07-02T13:11:06.559941553+03:00",
+      "end": "2025-09-04T00:51:29.679757567+03:00",
       "outcome": {
         "Completed": {
           "stats": {
             "archive": {
-              "duration": 16.822377,
-              "id": "850f92fed65f0bc5f1b8dfa3fccf6aca9e286003ab0476f6694689a031ed7ecc",
-              "name": "d581a9-97e0eec3",
+              "duration": 51.042073,
+              "id": "0484e2d7aed13d44cb216570ec5d1077fde18197bf5649d4887ad2114c363c34",
+              "name": "d581a9-6a775b25",
               "stats": {
-                "compressed_size": 70682562949,
-                "deduplicated_size": 8561,
-                "nfiles": 90901,
-                "original_size": 82962819298
+                "compressed_size": 70102179359,
+                "deduplicated_size": 1263545156,
+                "nfiles": 97734,
+                "original_size": 80912776571
               }
             }
           }
@@ -1765,7 +2038,7 @@
       ]
     },
     "last_check": {
-      "end": "2024-11-30T16:05:02.595717106+02:00",
+      "end": "2025-08-03T14:36:24.849717731+03:00",
       "outcome": "Success"
     },
     "suggested_exclude": {
@@ -1892,6 +2165,367 @@
   "473ecab2-21aa-47d7-8018-40efa237eed1": {
     "config_version": 2,
     "run": [
+      {
+        "end": "2025-08-30T17:22:05.823315501+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 669.570761,
+                "id": "6ea567903964ea3e1b3d8aadb9562758e8f23b96ca3f4a688770379e03ab7652",
+                "name": "2b947a-a2b62b65",
+                "stats": {
+                  "compressed_size": 42736040466,
+                  "deduplicated_size": 268271916,
+                  "nfiles": 14410,
+                  "original_size": 44888397927
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-23T17:06:58.729847177+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 670.179586,
+                "id": "b13a4749900046331f8ae313f2a99d8ce35eb9a593310ce36f268742530ed50e",
+                "name": "2b947a-24314ee8",
+                "stats": {
+                  "compressed_size": 42504160838,
+                  "deduplicated_size": 1926717067,
+                  "nfiles": 14292,
+                  "original_size": 44652644723
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-15T16:05:43.968296742+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 610.53039,
+                "id": "e9e6fe10d04c7827d6c3a37d2b4abd133c887ed3ffec7c54b9e13f311b388ce2",
+                "name": "2b947a-2e8b2ea2",
+                "stats": {
+                  "compressed_size": 40577446002,
+                  "deduplicated_size": 35328234,
+                  "nfiles": 14064,
+                  "original_size": 42715976285
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-13T18:49:46.103176502+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 610.130665,
+                "id": "e8cdebc303794976ddb295a494c0c33f95311fabc5e088c9125ec52e9543e958",
+                "name": "2b947a-3374eb56",
+                "stats": {
+                  "compressed_size": 40542119832,
+                  "deduplicated_size": 1122040063,
+                  "nfiles": 14040,
+                  "original_size": 42680566064
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-03T13:18:29.708735726+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 603.302324,
+                "id": "cc8eb067e995d822fcce92eec365d6e257dd9447974ae27c9d4cf4f9d2be8514",
+                "name": "2b947a-c68c2c9e",
+                "stats": {
+                  "compressed_size": 39420080575,
+                  "deduplicated_size": 318841506,
+                  "nfiles": 13885,
+                  "original_size": 41556546065
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2025-07-27T15:16:45.758112574+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 6.671306,
+                "id": "591877b15bc6b4efe81414ecd42f1eb97bf7e36ab38e8a41f4453e9b2a0d7edd",
+                "name": "2b947a-f46d1b64",
+                "stats": {
+                  "compressed_size": 39100128361,
+                  "deduplicated_size": 119574404,
+                  "nfiles": 13787,
+                  "original_size": 41234942461
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2025-07-27T15:13:14.461297678+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 591.120881,
+                "id": "d69eeaec8c6ab8618f2fa395787306a9d1f737963a0d96f36097f125923aefb4",
+                "name": "2b947a-526a2e09",
+                "stats": {
+                  "compressed_size": 38980555986,
+                  "deduplicated_size": 356530612,
+                  "nfiles": 13785,
+                  "original_size": 41115291443
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /home/eepyender/Documents/Card/lock (timeout).",
+              "msgid": "LockTimeout"
+            }
+          }
+        ],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
+      {
+        "end": "2025-07-22T23:32:26.389078458+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 604.938211,
+                "id": "40e913de644f6db03d0b548cb9b27925567367670734b001d6e503162f28f120",
+                "name": "2b947a-3cf05f7b",
+                "stats": {
+                  "compressed_size": 38622085356,
+                  "deduplicated_size": 794499969,
+                  "nfiles": 13695,
+                  "original_size": 40755739360
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          "/run/media/eepyender/EF95-0C0B"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Alarms"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Audiobooks"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Download"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Notifications"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Podcasts"
+          },
+          {
+            "PathPrefix": "/run/media/eepyender/EF95-0C0B/Ringtones"
+          }
+        ]
+      },
       {
         "end": "2025-07-02T13:07:51.908814570+03:00",
         "outcome": {
@@ -2159,19 +2793,19 @@
     ],
     "running": null,
     "last_completed": {
-      "end": "2025-07-02T13:07:51.908814570+03:00",
+      "end": "2025-08-30T17:22:05.823315501+03:00",
       "outcome": {
         "Completed": {
           "stats": {
             "archive": {
-              "duration": 554.537792,
-              "id": "ff1b440b80068312280071cdb428398e43b4083a4833d2881e1990ec3ed0b739",
-              "name": "2b947a-8e8055ca",
+              "duration": 669.570761,
+              "id": "6ea567903964ea3e1b3d8aadb9562758e8f23b96ca3f4a688770379e03ab7652",
+              "name": "2b947a-a2b62b65",
               "stats": {
-                "compressed_size": 37808672499,
-                "deduplicated_size": 154900270,
-                "nfiles": 13478,
-                "original_size": 39931299724
+                "compressed_size": 42736040466,
+                "deduplicated_size": 268271916,
+                "nfiles": 14410,
+                "original_size": 44888397927
               }
             }
           }
@@ -4362,6 +4996,201 @@
     "config_version": 2,
     "run": [
       {
+        "end": "2025-08-23T18:12:09.510292627+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 70.842843,
+                "id": "d56ee03bb526e3598eb20d294708811500a30acd22cc66ebc190867a27932c8c",
+                "name": "a24f56-2ca96ffb",
+                "stats": {
+                  "compressed_size": 69172081071,
+                  "deduplicated_size": 230657437,
+                  "nfiles": 95313,
+                  "original_size": 79339837098
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-15T17:21:48.525184431+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 26.325768,
+                "id": "9195ed32d2f952ad4b29c93ffdb6f539e596e3dd658d69c61dccc361779f7fe0",
+                "name": "a24f56-a1e2ee6e",
+                "stats": {
+                  "compressed_size": 68045942126,
+                  "deduplicated_size": 8630369,
+                  "nfiles": 93346,
+                  "original_size": 77511027201
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-13T19:08:48.221108500+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 48.120645,
+                "id": "6c7111dd05df75ac7ecef31a2f6dcc402c020cd9051b2f00f6d3c021d61edbdc",
+                "name": "a24f56-4df5080a",
+                "stats": {
+                  "compressed_size": 68037515470,
+                  "deduplicated_size": 610473112,
+                  "nfiles": 93333,
+                  "original_size": 77501815062
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-08-03T15:37:02.832947147+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 3107.254498,
+                "id": "3bc7cf8c089d852d886ca4186bc5630f562b9d7860fcfec0b8f016ed7caa981d",
+                "name": "a24f56-079ef801",
+                "stats": {
+                  "compressed_size": 158588945119,
+                  "deduplicated_size": 90365229203,
+                  "nfiles": 94206,
+                  "original_size": 172898275022
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
+        "end": "2025-07-23T02:36:25.228928883+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 363.963809,
+                "id": "fd66bfe142ed2bf40824cc3f4e120aba491f8548064a9d0bcab48a9545d779b2",
+                "name": "a24f56-54cabf07",
+                "stats": {
+                  "compressed_size": 71759689679,
+                  "deduplicated_size": 333681311,
+                  "nfiles": 103744,
+                  "original_size": 84041578821
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ".local/share/auth",
+          ".minecraft",
+          ".var/app/net.lutris.Lutris/config",
+          ".var/app/net.lutris.Lutris/data",
+          ".var/app/net.pcsx2.PCSX2",
+          ".var/app/org.DolphinEmu.dolphin-emu",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos/Projects",
+          "Videos/Random"
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/eepyender/Documents/Card"
+          }
+        ]
+      },
+      {
         "end": "2025-07-02T13:17:53.736487474+03:00",
         "outcome": {
           "Completed": {
@@ -4945,19 +5774,19 @@
     ],
     "running": null,
     "last_completed": {
-      "end": "2025-07-02T13:17:53.736487474+03:00",
+      "end": "2025-08-23T18:12:09.510292627+03:00",
       "outcome": {
         "Completed": {
           "stats": {
             "archive": {
-              "duration": 25.165651,
-              "id": "1975d28064c2e8ebe7a61107682c801daf2de64ae7c8f3ee8d4a6f1a56f1c32c",
-              "name": "a24f56-9bf2df7c",
+              "duration": 70.842843,
+              "id": "d56ee03bb526e3598eb20d294708811500a30acd22cc66ebc190867a27932c8c",
+              "name": "a24f56-2ca96ffb",
               "stats": {
-                "compressed_size": 70773423494,
-                "deduplicated_size": 486002156,
-                "nfiles": 90901,
-                "original_size": 82962763924
+                "compressed_size": 69172081071,
+                "deduplicated_size": 230657437,
+                "nfiles": 95313,
+                "original_size": 79339837098
               }
             }
           }

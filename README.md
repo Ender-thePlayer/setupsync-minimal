@@ -1,13 +1,15 @@
-# Welcome to SetupSync!
+# Welcome to RestoreStation!
 
-SetupSync is a collection of shell scripts that I use to configure the system, install my used apps (through pacman/AUR, through flatpak, through pip etc), move dotfiles, make my preferred configs to my apps, etc.
+RestoreStation is a modular collection of shell scripts that I use to configure the system, install my used apps (through pacman/AUR, flatpak, pip etc), move dotfiles, make my preferred configs to my apps, etc.
 
 
 # How it works
 
 Run `./install.sh` in the relative folder where it is and go through it's cli UI.
 
-It will ask you for access to **SUPERUSER PRIVILEGES** through `sudo`. After that, it will ask you which option do you want for installation and asks for confirmation, after that it will run automatically.
+Note: it is important to run `./install.sh` im the relative folder, make sure you are in the correct folder using `pwd`, why, cuz trust me, I'm an engineer! Nah really, it is held together with hopes and dreams.
+
+You should have at least Hyprland, sddm and sudo installed and configured! This script was made to be ran after installing via archinstall with hyprland profile.  
 
 When it is done, it will ask you if you want to restart!
 

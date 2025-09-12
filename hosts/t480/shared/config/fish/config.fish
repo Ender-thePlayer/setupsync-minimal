@@ -17,29 +17,27 @@ function fish_postexec --on-event fish_postexec
     set -g NEW_LINE_AFTER_PROMPT 1
 end
 
-set -x user $( ps -o user= -p $fish_pid | awk '{print $1}' )
-echo $user is thinking.. '"Te te te Teto Teto  te te te Tet-o-ris"'
+set -x user_v ( ps -o user= -p $fish_pid | awk '{print $1}' )
+set -x rand_v (shuf -i 1-100 -n 1)
+set -x val_v (math $rand_v % 2)
+
+if test $val_v -eq 0
+    echo $user_v is singing.. '"kimi no hitomi no naka no garasu ni wa"'
+else
+    echo $user_v is singing.. '"君の瞳の中のガラスには"'
+end
 
 if status is-interactive
     set -g fish_greeting
     set -x PATH $HOME/.local/bin $PATH
-    set -x PATH $HOME/.spicetify $PATH
-    set -x MOZ_ENABLE_WAYLAND 1
-    set -x WLR_NO_HARDWARE_CURSORS 1
-    set -x WLR_RENDERER_ALLOW_SOFTWARE 1
-#    set -x QT_QPA_PLATFORM xcb
+    #set -x WLR_NO_HARDWARE_CURSORS 1
 
     set -x PATH $HOME/.venv/bin $PATH
-
     set -x date "$( math $( date +%Y ) +1 )"
 
     alias $date 'echo "YEAR OF THE DESKTOP"'
-    #alias 17 'echo "セブンティーナァァァァァ!"'
-    #alias vencord 'sh -c "(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh | sh)"'
-    #alias freq 'watch -n.1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""'
-    #alias update_grub 'sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
-    #alias dnf 'dnf5'
-    #alias sudo 'sudo '
+    alias 17 'echo "セブンティーナァァァァァ!"'
+    alias freq 'watch -n.1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""'
     alias rm 'rm -I'
 end
 

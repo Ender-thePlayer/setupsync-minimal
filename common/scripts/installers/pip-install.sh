@@ -5,6 +5,11 @@ pip=(
 "pygobject"
 "spotify_dl"
 "pycryptodome"
+"requirements-parser"
+"setuptools"
+"Cython"
+"dbus-python"
+"gbinder"
 )
 
 
