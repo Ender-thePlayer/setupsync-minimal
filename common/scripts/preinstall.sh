@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 ### PACMAN CONFIGS
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm git reflector efibootmgr
@@ -9,9 +10,9 @@ sudo pacman -Syu --noconfirm
 
 
 ### PARU INSTALL
-git clone https://aur.archlinux.org/paru-bin.git
-cd paru-bin || exit 1
+git clone https://aur.archlinux.org/paru.git
+cd paru || exit 1
 makepkg -s --noconfirm
-sudo pacman -U --noconfirm paru-bin-*.tar.zst
+sudo pacman -U --noconfirm paru-*.tar.zst
 cd ..
-rm -rf ./paru-bin
+rm -rf ./paru

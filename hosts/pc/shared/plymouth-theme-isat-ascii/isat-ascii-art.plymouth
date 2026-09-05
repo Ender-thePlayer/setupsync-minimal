@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=ISAT ASCII Art
+Description=A theme that features In Stars and Time ASCII art with encryption password input
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/isat-ascii-art
+ScriptFile=/usr/share/plymouth/themes/isat-ascii-art/isat-ascii-art.script

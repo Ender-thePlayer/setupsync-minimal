@@ -1,0 +1,9 @@
+# Wayle configuration file
+
+[[modules.custom]]
+id = "cpu-temp"
+command = "~/.config/scripts/hardware.sh"
+interval-ms = 2000
+icon-name = "ld-thermometer-symbolic"
+format = "{{ cputemp }}"
+tooltip-format = "Frequency: {{ freq }}\nFan Speed: {{ rpm }}"

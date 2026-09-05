@@ -1,25 +1,12 @@
 #!/usr/bin/env bash
 
-pip=(
-"python-dotenv"
-"pygobject"
-"spotify_dl"
-"pycryptodome"
-"requirements-parser"
-"setuptools"
-"Cython"
-"dbus-python"
-"gbinder"
-)
-
 
 ### PIP
-current=$( pwd )
-cd "$HOME" || return
-uv venv
-# shellcheck disable=SC1090
-source "$HOME".venv/bin/activate
+pip=(
+"yt-dlp"
+"spotify_dl"
+)
+
 for pkg in "${pip[@]}"; do
-    uv pip install "$pkg"
+    uv tool install "$pkg"
 done
-cd "$current" || return

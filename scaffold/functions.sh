@@ -2,11 +2,11 @@
 
 function welcome_message {
     echo "=================================="
-    echo "Welcome to RestoreStation Beta"
-    echo -e "Version:\e[1m b_dev04.0925\e[0m"
+    echo "Welcome to RestoreStation"
+    echo -e "Version:\e[1m 26.0904\e[0m"
     echo "=================================="
     echo ""
-    echo "Released on: 04/09/2025"
+    echo "Released on: 04/09/2026"
     echo ""
 }
 function drive {

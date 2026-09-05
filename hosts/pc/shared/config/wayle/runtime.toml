@@ -1,0 +1,104 @@
+[general]
+font-sans = "JetBrains Mono"
+
+[bar]
+scale = 0.75
+padding = 0.25
+background-opacity = 65
+button-variant = "basic"
+button-label-size = 1.100000023841858
+button-label-weight = "bold"
+button-label-padding = 0.8999999761581421
+button-gap = 0.6000000238418579
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "dashboard",
+    "hyprland-workspaces",
+]
+center = [
+    "clock",
+    "weather",
+    "idle-inhibit",
+]
+right = [
+    "systray",
+    "bluetooth",
+    "brightness",
+    "custom-cpu-temp",
+    "volume",
+]
+
+[styling]
+scale = 0.9100000262260437
+rounding = "none"
+
+[styling.palette]
+bg = "#11111b"
+surface = "#181825"
+elevated = "#1e1e2e"
+fg = "#cdd6f4"
+fg-muted = "#bac2de"
+primary = "#b4befe"
+red = "#f38ba8"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+blue = "#74c7ec"
+
+[modules.bluetooth]
+label-show = false
+
+[modules.clock]
+format = "%H:%M - %a, %d %b %Y"
+
+[modules.dashboard]
+right-click = "dropdown:notification"
+
+[modules.hyprland-workspaces]
+show-special = false
+label-size = 1.0199999809265137
+
+[modules.network]
+label-show = false
+
+[modules.volume]
+middle-click = "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+scroll-up = "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+"
+scroll-down = "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+
+[modules.weather]
+location = "Macin"
+time-format = "24h"
+
+[[modules.custom]]
+id = "cpu-temp"
+command = "~/.config/scripts/hardware.sh"
+mode = "poll"
+interval-ms = 2000
+restart-policy = "never"
+restart-interval-ms = 1000
+format = "{{cputemp}} | {{gputemp}}"
+tooltip-format = """
+Frequency: {{ freq }}
+Fan Speed: {{ rpm }}"""
+hide-if-empty = false
+icon-name = "ld-thermometer-symbolic"
+icon-show = true
+icon-color = "auto"
+icon-bg-color = "auto"
+label-show = true
+label-color = "auto"
+label-max-length = 0
+button-bg-color = "bg-surface-elevated"
+border-show = false
+border-color = "auto"
+left-click = ""
+right-click = ""
+middle-click = ""
+scroll-up = ""
+scroll-down = ""
+
+[wallpaper]
+engine-enabled = false

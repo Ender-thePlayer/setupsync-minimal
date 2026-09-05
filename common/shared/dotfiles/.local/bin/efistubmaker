@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -x
+
+UUID=$( lsblk -dno UUID /dev/nvme0n1p2 || exit 1)
+sudo efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "EFI Arch LTS" --loader /vmlinuz-linux-lts --unicode "rd.luks.name=${UUID}=root root=/dev/mapper/root zswap.enabled=0 rw quiet splash rootfstype=btrfs usbcore.autosuspend=-1 initrd=\\initramfs-linux-lts.img"
+sudo efibootmgr --create --disk /dev/nvme0n1 --part 1 --label "EFI Arch" --loader /vmlinuz-linux-zen --unicode "rd.luks.name=${UUID}=root root=/dev/mapper/root zswap.enabled=0 rw quiet splash rootfstype=btrfs usbcore.autosuspend=-1 initrd=\\initramfs-linux-zen.img"
+

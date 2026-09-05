@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set -euo pipefail
-CONFIG_DIR="$HOME/.config/swww"
+CONFIG_DIR="$HOME/.config/awww"
 WALLPAPER_DIR="$HOME/.config/walls/active"
 WALLPAPER_NAME="current_wallpaper"
 HYPRLOCK_CONF="$HOME/.config/hypr/hyprlock.conf"
@@ -78,12 +78,12 @@ update_hyprlock() {
     fi
 }
 
-set_swww_wallpaper() {
+set_awww_wallpaper() {
     local wallpaper="$1"
     
-    [[ -f "$wallpaper" ]] || error "Wallpaper file for swww does not exist: $wallpaper"
-    echo "[INFO] Setting wallpaper with swww: $wallpaper"
-    swww img "$wallpaper" --filter Nearest || error "Failed to set wallpaper using swww"
+    [[ -f "$wallpaper" ]] || error "Wallpaper file for awww does not exist: $wallpaper"
+    echo "[INFO] Setting wallpaper with awww: $wallpaper"
+    awww img "$wallpaper" --filter Nearest || error "Failed to set wallpaper using awww"
 }
 
 main() {
@@ -109,7 +109,7 @@ main() {
         update_hyprlock "$config_file"
     fi
     
-    set_swww_wallpaper "$config_file"
+    set_awww_wallpaper "$config_file"
     success "Changed background to $config_file"
 }
 

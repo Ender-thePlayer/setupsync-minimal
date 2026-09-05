@@ -14,10 +14,9 @@ You should have at least Hyprland, sddm and sudo installed and configured! This 
 When it is done, it will ask you if you want to restart!
 
 ## Hosts
+PC - my PC ;)
 Laptop - a Thinkpad T480 running Hyprland and archlinux, my daily driver at the moment
-PC - coming soon!
-
 
 ## Dependencies
 
-Hyprland, SDDM and sudo (so far).
+Ig Hyprland and sudo (sorry not sorry).

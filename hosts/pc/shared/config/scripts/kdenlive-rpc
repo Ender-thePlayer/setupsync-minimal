@@ -1,0 +1,121 @@
+#!/usr/bin/env python3
+### CREATED ON: 18.07.2026
+### This script generates a Discord Rich Presence for Kdenlive
+### It shows what project I'm currently workin on
+
+# Usage: "python3 kdenlive-rpc" (daemon)
+
+
+import json
+import logging
+import shutil
+import subprocess
+import time
+
+import psutil
+from pypresence import Presence, PyPresenceException
+
+CLIENT_ID = "828295416608325652"
+LARGE_IMAGE = "kdenlive"
+POLL_INTERVAL = 15
+RECONNECT_BACKOFF = 10
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%H:%M:%S",
+)
+log = logging.getLogger("kdenlive-rpc")
+
+HAS_HYPRCTL = shutil.which("hyprctl") is not None
+
+
+def kdenlive_running() -> bool:
+    return any(p.name() == "kdenlive" for p in psutil.process_iter(["name"]))
+
+
+def current_project_name() -> str | None:
+    """Best-effort: pull the project name out of Kdenlive's window title
+    via hyprctl. Kdenlive titles look like 'ProjectName - Kdenlive'."""
+    if not HAS_HYPRCTL:
+        return None
+    try:
+        out = subprocess.run(
+            ["hyprctl", "clients", "-j"],
+            capture_output=True, text=True, timeout=2,
+        )
+        clients = json.loads(out.stdout)
+        for c in clients:
+            if c.get("class", "").lower() == "org.kde.kdenlive":
+                title = c.get("title", "")
+                for suffix in (" — Kdenlive", " - Kdenlive"):
+                    if title.endswith(suffix):
+                        title = title[: -len(suffix)]
+                        break
+                if " / " in title:
+                    title = title.split(" / ")[0]
+                return title.strip() or None
+    except (subprocess.SubprocessError, json.JSONDecodeError, OSError):
+        pass
+    return None
+
+
+def connect() -> Presence:
+    rpc = Presence(CLIENT_ID)
+    rpc.connect()
+    log.info("Connected to Discord IPC")
+    return rpc
+
+
+def main():
+    rpc = None
+    was_running = False
+    start_ts = None
+
+    while True:
+        try:
+            running = kdenlive_running()
+
+            if running and rpc is None:
+                rpc = connect()
+
+            if running:
+                if not was_running:
+                    start_ts = int(time.time())
+                    log.info("Kdenlive detected, presence started")
+
+                project = current_project_name()
+                state = f"Editing {project}" if project else "Editing a project"
+
+                rpc.update(
+                    state=state,
+                    details="Video editing",
+                    large_image=LARGE_IMAGE,
+                    large_text="Kdenlive",
+                    start=start_ts,
+                )
+            elif was_running and rpc is not None:
+                rpc.clear()
+                log.info("Kdenlive closed, presence cleared")
+                start_ts = None
+
+            was_running = running
+
+        except PyPresenceException as e:
+            log.warning("Discord IPC error (%s), will retry", e)
+            rpc = None
+            time.sleep(RECONNECT_BACKOFF)
+            continue
+        except Exception as e:
+            log.error("Unexpected error: %s", e)
+            time.sleep(RECONNECT_BACKOFF)
+            continue
+
+        time.sleep(POLL_INTERVAL)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        log.info("Shutting down")

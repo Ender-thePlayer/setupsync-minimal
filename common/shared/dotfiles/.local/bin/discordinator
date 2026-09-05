@@ -18,18 +18,15 @@ get_filepath_without_extension() {
 }
 
 print_usage() {
-    echo "Usage: discordinator <input_file> {-c1 | -c2} {-s}"
+    echo "Usage: discordinator <input_file> {-c1 | -c2}"
     echo "    -c1: High compression (smaller size, slower)"
-    echo "    -c2: Lower compression (faster, larger size using VA-API)"
-    echo "    -s: Upload it to Streamable and get the link"
+    echo "    -c2: Lower compression (faster, larger size using AMDGPU)"
 }
 
 input_file="$1"
 compression_level="$2"
-upload_to_streamable="$3"
-upload=false
 gif_file=false
-use_vaapi=false
+use_amdgpu=false
 
 if [ ! -f "$input_file" ]; then
     echo "ERROR: input file '$input_file' does not exist"
@@ -76,7 +73,7 @@ case $compression_level in
     preset="veryslow"
     ;;
 -c2)
-    use_vaapi=true
+    use_amdgpu=true
     ;;
 *)
     if ! $gif_file; then
@@ -87,31 +84,18 @@ case $compression_level in
     ;;
 esac
 
-case $upload_to_streamable in
--s)
-    upload=true
-    ;;
-*)
-    upload=false
-    ;;
-esac
-
 echo "Compressing video. This could take a while..."
-
-if [ "$upload" = true ]; then
-    random_string=$(< /dev/urandom tr -dc 'A-Za-z0-9' | head -c 16)
-    output_file="$HOME/.cache/$random_string.$input_file_ext"
-fi
 
 if $gif_file; then
     ffmpeg -i "$input_file" -vf "fps=15,scale=512:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" "$output_file" && \
     gifsicle -O3 --lossy=80 "$output_file" -o "$output_file"
 
-elif [ "$use_vaapi" = true ]; then
-    if ffmpeg -hwaccel vaapi -vaapi_device /dev/dri/renderD128 -i "$input_file" -vf 'format=nv12,hwupload' -c:v h264_vaapi -b:v 7000k -c:a $acodec "$output_file"; then
-        echo "Hardware-accelerated compression (VA-API) completed successfully"
+elif [ "$use_amdgpu" = true ]; then
+    if ffmpeg -init_hw_device vaapi=amd:/dev/dri/renderD128 -hwaccel vaapi -hwaccel_output_format vaapi -hwaccel_device amd -i "$input_file" -c:v h264_vaapi -b:v 7000k -c:a $acodec "$output_file"; then
+        echo "Hardware-accelerated compression (AMDGPU) completed successfully"
+        echo "Output file: $output_file"
     else
-        echo "ERROR: VA-API compression failed"
+        echo "ERROR: AMDGPU compression failed"
         exit 1
     fi
 else
@@ -133,9 +117,3 @@ else
         fi
     fi
 fi
-
-if [ "$upload" = true ]; then
-    scaffold "$output_file"
-    rm "$output_file"
-fi
-

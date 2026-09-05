@@ -2,19 +2,16 @@
 set -euo pipefail
 
 ### IMPORTS
+# Common
 Preinstall=./common/scripts/preinstall.sh
-HardwareConfigLaptop=./hosts/t480/scripts/hardwarecfg.sh
-HardwareConfigPC=./hosts/h310m-k/scripts/hardwarecfg.sh
-PackageManagerInstallLaptop=./hosts/t480/scripts/installers/pkgman-install.sh
-PackageManagerInstallPC=./hosts/h310m-k/scripts/installers/pkgman-install.sh
 PackageManagerCleaning=./common/scripts/cleaning.sh
+PackageManagerInstall=./common/scripts/installers/pkgman-install.sh
 FlatpakInstall=./common/scripts/installers/flatpak-install.sh
 PIPInstall=./common/scripts/installers/pip-install.sh
-ConfigsLaptop=./hosts/t480/scripts/configs.sh
-ConfigsPC=./hosts/h310m-k/scripts/configs.sh
-ConfigsGlobal=./common/scripts/configs.sh
+Configs=./common/scripts/configs.sh
 RestoreFromFiles=./common/scripts/file_restore.sh
-
+HardwareConfigPC=./hosts/pc/scripts/hardwarecfg.sh
+HardwareConfigLaptop=./hosts/laptop/scripts/hardwarecfg.sh
 # shellcheck source=/dev/null
 source ./scaffold/functions.sh
 
@@ -29,7 +26,6 @@ pc=false
 
 ### MENUS
 # God have mercy for the poor soul trying to understand this
-
 sudo -v
 refresh_sudo &
 REFRESH_SUDO_PID=$!
@@ -143,19 +139,19 @@ while true; do
             if [ "$selection" -ge 0 ] && [ "$selection" -lt "${#options[@]}" ]; then
                 case "$selection" in
                     0)
-                        info_message "Running SetupSync normally..."
+                        info_message "Running RestoreStation normally..."
                         normal_run=true
                         ;;
                     1)
-                        info_message "Running SetupSync while only restoring user files..."
+                        info_message "Running RestoreStation while only restoring user files..."
                         documents_only=true
                         ;;
                     2)
-                        info_message "Running SetupSync while only restoring configs..."
+                        info_message "Running RestoreStation while only restoring configs..."
                         configs_only=true
                         ;;
                     3)
-                        info_message "Running SetupSync while only installing apps..."
+                        info_message "Running RestoreStation while only installing apps..."
                         apps_only=true
                         ;;
                     4)
@@ -191,7 +187,6 @@ fi
 ### INSTALL
 # The main part of the app, it installs things, configures other things etc depending on the selected mode
 # what else did you expect?
-
 if $normal_run; then
     clear
     info_message "Preparing for the install..."
@@ -206,14 +201,8 @@ if $normal_run; then
     fi
     sleep 5; clear
     
-    info_message "Installing apps through distro's package manager..."
-    sleep 2
-    if $laptop; then
-        $PackageManagerInstallLaptop
-    elif $pc; then
-        $PackageManagerInstallPC
-    fi
-    sleep 5; clear
+    info_message "Installing apps through pacman/aur..."
+    sleep 2; $PackageManagerInstall; sleep 5; clear
     
     info_message "Installing apps through flatpak..."
     sleep 2; $FlatpakInstall; sleep 5; clear
@@ -224,34 +213,40 @@ if $normal_run; then
     info_message "Restoring user configs..."
     sleep 2
     if $laptop; then
-        $ConfigsLaptop
+        $Configs --laptop-config
     elif $pc; then
-        $ConfigsPC
+        $Configs --pc-config
     fi
-    $ConfigsGlobal
     sleep 5; clear
     
     info_message "Restoring user files..."
-    sleep 2; $RestoreFromFiles; sleep 5; clear
-    
+    if $pc; then
+        sleep 2; $RestoreFromFiles; sleep 5; clear
+    elif $laptop; then
+        sleep 2; $RestoreFromFiles true; sleep 5; clear
+    fi
+  
     info_message "Cleaning things up..."
     sleep 2; $PackageManagerCleaning; sleep 5; clear
 
 elif $documents_only; then
     clear
     info_message "Restoring user files..."
-    sleep 2; $RestoreFromFiles; sleep 5; clear
+    if $pc; then
+        sleep 2; $RestoreFromFiles; sleep 5; clear
+    elif $laptop; then
+        sleep 2; $RestoreFromFiles true; sleep 5; clear
+    fi
 
 elif $configs_only; then
     clear
     info_message "Restoring user configs..."
     sleep 2
     if $laptop; then
-        $ConfigsLaptop
+        $Configs --laptop-config
     elif $pc; then
-        $ConfigsPC
+        $Configs --pc-config
     fi
-    $ConfigsGlobal
     sleep 5; clear
 
 elif $apps_only; then
@@ -259,14 +254,8 @@ elif $apps_only; then
     info_message "Preparing for the install..."
     sleep 2; $Preinstall; sleep 5; clear
 
-    info_message "Installing apps through distro's package manager..."
-    sleep 2
-    if $laptop; then
-        $PackageManagerInstallLaptop
-    elif $pc; then
-        $PackageManagerInstallPC
-    fi
-    sleep 5; clear
+    info_message "Installing apps through pacman/aur..."
+    sleep 2; $PackageManagerInstall; sleep 5; clear
     
     info_message "Installing apps through flatpak..."
     sleep 2; $FlatpakInstall; sleep 5; clear
@@ -279,15 +268,16 @@ fi
 ### AFTERINSTALL
 # Changes the shell to fish and adds the user to libvirt group
 # after that it asks if you want to reboot
-
 user=$( whoami )
-sudo chsh -s "$(which fish)" "$user"
-sudo usermod -a -G libvirt "$user"
-sudo chsh -s "$(which fish)" "$user"
+sudo chsh -s "/usr/bin/fish" "$user"
+
+if test -f "./scaffold/my-ublock-static-filters_2025-10-30_00.41.35.txt"; then
+    cp "./scaffold/my-ublock-static-filters_2025-10-30_00.41.35.txt" "$HOME"/Downloads
+fi
 
 error_code=$?
 if [ $error_code -eq 0 ]; then
-    run_successfully "SetupSync finished successfully!"
+    run_successfully "RestoreStation finished successfully!"
     read -r -p "Do you want to restart your computer? [y/N]: " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
     echo ""; info_message " Rebooting in... ";
     for i in 3 2 1; do

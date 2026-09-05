@@ -1,0 +1,7 @@
+hl.env("HYPRCURSOR_THEME", "MikuCursor")
+hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("XCURSOR_SIZE", "24")
+hl.env("XCURSOR_THEME", "MikuCursor")
+hl.env("QT_QPA_PLATFORM", "wayland")
+hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
+hl.env("GTK_USE_PORTAL", "1")
